@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Monarh Mobile — аксессуары для смартфонов, планшетов и гаджетов">
+  <title>Monarh Mobile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/new-products.css">
+  <link rel="stylesheet" href="css/popular-products.css">
+  <link rel="stylesheet" href="css/contacts.css">
+
+</head>
+
+<body>
+
+<!--Навигация-->
+<header class="header">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.jpg" alt="Logo" width="60" height="60" class="d-inline-block align-text-top">
+        monarh mobile
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Каталог
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Чехлы для смартфона</a></li>
+              <li><a class="dropdown-item" href="#">Зарыдные устройства</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Подбор аксессуаров по модели устройства</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Акции</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Новинки</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">О нас</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Контакты</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Пиши, чтоб найти" aria-label="Search"/>
+          <button class="btn btn-outline-success" type="submit">Поиск</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <!--Главная-->
+  <section class="hero">
+
+    <div class="hero__container">
+
+      <!-- Левая часть -->
+      <div class="hero__content">
+
+        <div class="hero__eyebrow">
+          ТЕХНОЛОГИИ И СТИЛЬ
+        </div>
+
+        <h1 class="hero__title">
+          Аксессуары<br>
+          для тех,<br>
+          кто в движении
+        </h1>
+
+        <p class="hero__description">
+          Премиальные аксессуары для смартфонов,
+          планшетов и гаджетов. Качество, которому доверяют.
+        </p>
+
+        <a href="#catalog" class="hero__button">
+          <span>Перейти в каталог</span>
+
+          <span class="hero__arrow">
+                    →
+                </span>
+        </a>
+
+      </div>
+
+
+      <!-- Правая часть -->
+      <div class="hero__image">
+
+        <!--
+            ЗДЕСЬ МОЖНО ПОСТАВИТЬ ЛЮБУЮ КАРТИНКУ
+
+            Например:
+
+            <img
+                src="images/hero.jpg"
+                alt="Аксессуары Monarh Mobile"
+            >
+        -->
+
+        <img class="rounded"
+                src="img/main2.png"
+                alt="Аксессуары для смартфонов"
+        >
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!--Новинки-->
+  <section class="new-products" id="new-products">
+    <div class="container">
+
+      <div class="new-products__header">
+
+        <div>
+          <div class="new-products__label">
+            Новое поступление
+          </div>
+
+          <h2 class="new-products__title">
+            Новинки
+          </h2>
+        </div>
+
+        <div>
+          <p class="new-products__subtitle">
+            Свежие модели аксессуаров для смартфонов,
+            планшетов и других гаджетов.
+            Современный дизайн и качество в каждой детали.
+          </p>
+
+          <a href="#catalog" class="new-products__all">
+            Смотреть все
+            <span>→</span>
+          </a>
+        </div>
+
+      </div>
+
+
+      <div class="new-products__grid">
+
+        <!-- Товар 1 -->
+        <article class="new-product">
+
+          <div class="new-product__image">
+
+                    <span class="new-product__badge">
+                        Новинка
+                    </span>
+
+            <img src="img/new-1.png"
+                 alt="Премиальный чехол">
+
+          </div>
+
+          <div class="new-product__content">
+
+            <div class="new-product__category">
+              Чехлы
+            </div>
+
+            <h3 class="new-product__name">
+              Premium Case
+            </h3>
+
+            <div class="new-product__bottom">
+
+              <div class="new-product__price">
+                350 ₽
+              </div>
+
+              <a href="#" class="new-product__button">
+                →
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- Товар 2 -->
+        <article class="new-product">
+
+          <div class="new-product__image">
+
+                    <span class="new-product__badge">
+                        Новинка
+                    </span>
+
+            <img src="img/new-2.png"
+                 alt="Беспроводное зарядное устройство">
+
+          </div>
+
+          <div class="new-product__content">
+
+            <div class="new-product__category">
+              Зарядные устройства
+            </div>
+
+            <h3 class="new-product__name">
+              Wireless Charger
+            </h3>
+
+            <div class="new-product__bottom">
+
+              <div class="new-product__price">
+                690 ₽
+              </div>
+
+              <a href="#" class="new-product__button">
+                →
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- Товар 3 -->
+        <article class="new-product">
+
+          <div class="new-product__image">
+
+                    <span class="new-product__badge">
+                        Новинка
+                    </span>
+
+            <img src="img/new-3.png"
+                 alt="Кабель для смартфона">
+
+          </div>
+
+          <div class="new-product__content">
+
+            <div class="new-product__category">
+              Кабели
+            </div>
+
+            <h3 class="new-product__name">
+              Fast Charge Cable
+            </h3>
+
+            <div class="new-product__bottom">
+
+              <div class="new-product__price">
+                290 ₽
+              </div>
+
+              <a href="#" class="new-product__button">
+                →
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- Товар 4 -->
+        <article class="new-product">
+
+          <div class="new-product__image">
+
+                    <span class="new-product__badge">
+                        Новинка
+                    </span>
+
+            <img src="img/new-4.png"
+                 alt="Автомобильный держатель">
+
+          </div>
+
+          <div class="new-product__content">
+
+            <div class="new-product__category">
+              Аксессуары
+            </div>
+
+            <h3 class="new-product__name">
+              Magnetic Holder
+            </h3>
+
+            <div class="new-product__bottom">
+
+              <div class="new-product__price">
+                450 ₽
+              </div>
+
+              <a href="#" class="new-product__button">
+                →
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!--Популярные товары-->
+  <section class="popular-products" id="popular-products">
+    <div class="container">
+
+      <div class="popular-products__header">
+
+        <div>
+          <div class="popular-products__label">
+            Выбирают чаще всего
+          </div>
+
+          <h2 class="popular-products__title">
+            Популярное
+          </h2>
+        </div>
+
+        <p class="popular-products__subtitle">
+          Самые востребованные аксессуары,
+          которые уже оценили наши покупатели.
+        </p>
+
+      </div>
+
+
+      <div class="popular-products__grid">
+
+        <!-- Товар 1 -->
+        <article class="popular-product">
+
+          <div class="popular-product__image">
+
+                    <span class="popular-product__badge">
+                        Хит
+                    </span>
+
+            <img src="img/popular-1.png"
+                 alt="Чехол для смартфона">
+
+          </div>
+
+          <div class="popular-product__content">
+
+            <div class="popular-product__category">
+              Чехлы
+            </div>
+
+            <h3 class="popular-product__name">
+              Premium Case
+            </h3>
+
+            <div class="popular-product__bottom">
+
+                        <span class="popular-product__price">
+                            350 ₽
+                        </span>
+
+              <a href="#" class="popular-product__button">
+                →
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- Товар 2 -->
+        <article class="popular-product">
+
+          <div class="popular-product__image">
+
+                    <span class="popular-product__badge">
+                        Хит
+                    </span>
+
+            <img src="img/popular-2.png"
+                 alt="Беспроводные наушники">
+
+          </div>
+
+          <div class="popular-product__content">
+
+            <div class="popular-product__category">
+              Аудио
+            </div>
+
+            <h3 class="popular-product__name">
+              Wireless Earbuds
+            </h3>
+
+            <div class="popular-product__bottom">
+
+                        <span class="popular-product__price">
+                            1 290 ₽
+                        </span>
+
+              <a href="#" class="popular-product__button">
+                →
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- Товар 3 -->
+        <article class="popular-product">
+
+          <div class="popular-product__image">
+
+                    <span class="popular-product__badge">
+                        Хит
+                    </span>
+
+            <img src="img/popular-3.png"
+                 alt="Быстрое зарядное устройство">
+
+          </div>
+
+          <div class="popular-product__content">
+
+            <div class="popular-product__category">
+              Зарядка
+            </div>
+
+            <h3 class="popular-product__name">
+              Fast Charger
+            </h3>
+
+            <div class="popular-product__bottom">
+
+                        <span class="popular-product__price">
+                            790 ₽
+                        </span>
+
+              <a href="#" class="popular-product__button">
+                →
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- Товар 4 -->
+        <article class="popular-product">
+
+          <div class="popular-product__image">
+
+                    <span class="popular-product__badge">
+                        Хит
+                    </span>
+
+            <img src="img/popular-4.png"
+                 alt="Защитное стекло">
+
+          </div>
+
+          <div class="popular-product__content">
+
+            <div class="popular-product__category">
+              Защита
+            </div>
+
+            <h3 class="popular-product__name">
+              Premium Glass
+            </h3>
+
+            <div class="popular-product__bottom">
+
+                        <span class="popular-product__price">
+                            250 ₽
+                        </span>
+
+              <a href="#" class="popular-product__button">
+                →
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+
+
+      <div class="popular-products__footer">
+
+        <a href="#catalog" class="popular-products__link">
+          Перейти в каталог
+          <span>→</span>
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!--Контакты-->
+  <section class="contacts" id="contacts">
+    <div class="container">
+
+      <div class="contacts__header">
+
+        <div>
+          <div class="contacts__label">
+            Мы рядом с вами
+          </div>
+
+          <h2 class="contacts__title">
+            Контакты
+          </h2>
+        </div>
+
+        <p class="contacts__subtitle">
+          Выбирайте удобный магазин и приезжайте за
+          аксессуарами. Мы всегда рады помочь с выбором.
+        </p>
+
+      </div>
+
+
+      <div class="contacts__stores">
+
+        <!-- Магазин 1 -->
+        <article class="store-card">
+
+          <div class="store-card__number">
+            01
+          </div>
+
+          <div class="store-card__content">
+
+            <h3 class="store-card__title">
+              Т/К «Монарх»
+            </h3>
+
+            <div class="store-card__address">
+              <span class="store-card__icon">⌖</span>
+
+              <div>
+                            <span>
+                                г. Тирасполь,<br>
+                                ул. Ленина, 7/1
+                            </span>
+
+                <small>
+                  Бутик 6
+                </small>
+              </div>
+            </div>
+
+            <a href="tel:+37377719353"
+               class="store-card__phone">
+              +373 (777) 19-353
+            </a>
+
+            <div class="store-card__schedule">
+              <span>Пн – Сб</span>
+              <strong>09:30–19:00</strong>
+
+              <span>Вс</span>
+              <strong>11:00–17:00</strong>
+            </div>
+
+            <div class="store-card__actions">
+
+              <a href="#"
+                 class="store-card__button store-card__button--yandex"
+                 target="_blank"
+                 rel="noopener">
+                Яндекс Карты
+              </a>
+
+              <a href="#"
+                 class="store-card__button"
+                 target="_blank"
+                 rel="noopener">
+                Google Maps
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- Магазин 2 -->
+        <article class="store-card">
+
+          <div class="store-card__number">
+            02
+          </div>
+
+          <div class="store-card__content">
+
+            <h3 class="store-card__title">
+              Рынок «Клинцовский»
+            </h3>
+
+            <div class="store-card__address">
+              <span class="store-card__icon">⌖</span>
+
+              <div>
+                            <span>
+                                г. Тирасполь,<br>
+                                ул. Ленина, 16
+                            </span>
+
+                <small>
+                  Бутик №15
+                </small>
+              </div>
+            </div>
+
+            <a href="tel:+37377782838"
+               class="store-card__phone">
+              +373 (777) 82-838
+            </a>
+
+            <div class="store-card__schedule">
+              <span>Пн – Сб</span>
+              <strong>09:00–20:00</strong>
+
+              <span>Вс</span>
+              <strong>11:00–17:00</strong>
+            </div>
+
+            <div class="store-card__actions">
+
+              <a href="#"
+                 class="store-card__button store-card__button--yandex"
+                 target="_blank"
+                 rel="noopener">
+                Яндекс Карты
+              </a>
+
+              <a href="#"
+                 class="store-card__button"
+                 target="_blank"
+                 rel="noopener">
+                Google Maps
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- Магазин 3 -->
+        <article class="store-card">
+
+          <div class="store-card__number">
+            03
+          </div>
+
+          <div class="store-card__content">
+
+            <h3 class="store-card__title">
+              Т/Ц «Тимп»
+            </h3>
+
+            <div class="store-card__address">
+              <span class="store-card__icon">⌖</span>
+
+              <div>
+                            <span>
+                                г. Тирасполь,<br>
+                                ул. Покровская (25 Октября), 104
+                            </span>
+
+                <small>
+                  Т/Ц «Тимп»
+                </small>
+              </div>
+            </div>
+
+            <a href="tel:+37377910900"
+               class="store-card__phone">
+              +373 (779) 10-900
+            </a>
+
+            <div class="store-card__schedule">
+              <span>Пн – Сб</span>
+              <strong>09:00–20:00</strong>
+
+              <span>Вс</span>
+              <strong>11:00–17:00</strong>
+            </div>
+
+            <div class="store-card__actions">
+
+              <a href="#"
+                 class="store-card__button store-card__button--yandex"
+                 target="_blank"
+                 rel="noopener">
+                Яндекс Карты
+              </a>
+
+              <a href="#"
+                 class="store-card__button"
+                 target="_blank"
+                 rel="noopener">
+                Google Maps
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+</main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>

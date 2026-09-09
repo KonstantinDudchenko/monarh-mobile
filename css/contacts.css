@@ -1,0 +1,435 @@
+/* ========================================
+   КОНТАКТЫ
+======================================== */
+
+.contacts {
+    padding: 110px 0;
+    background: #f5f5f5;
+}
+
+.contacts__header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 55px;
+}
+
+.contacts__label {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+
+    color: #ff4b1f;
+}
+
+.contacts__label::before {
+    content: "";
+    width: 28px;
+    height: 3px;
+    background: #ffd21c;
+}
+
+.contacts__title {
+    margin: 0;
+
+    font-size: clamp(2.7rem, 5vw, 5rem);
+    font-weight: 800;
+    line-height: 0.94;
+    letter-spacing: -0.05em;
+
+    color: #3a3a3a;
+}
+
+.contacts__subtitle {
+    max-width: 430px;
+    margin: 0;
+
+    font-size: 16px;
+    line-height: 1.7;
+
+    color: #777;
+}
+
+
+/* ========================================
+   МАГАЗИНЫ
+======================================== */
+
+.contacts__stores {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+    margin-bottom: 30px;
+}
+
+.store-card {
+    position: relative;
+
+    display: flex;
+
+    background: #ffffff;
+    border: 1px solid #e4e4e4;
+
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.store-card:hover {
+    transform: translateY(-6px);
+
+    border-color: #ffd21c;
+
+    box-shadow: 0 18px 40px rgba(90, 90, 90, 0.12);
+}
+
+
+/* Номер магазина */
+
+.store-card__number {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    width: 58px;
+    flex-shrink: 0;
+
+    padding-top: 25px;
+
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+
+    color: #999;
+
+    border-right: 1px solid #e4e4e4;
+}
+
+
+/* Контент */
+
+.store-card__content {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    padding: 25px;
+}
+
+.store-card__title {
+    margin: 0 0 22px;
+
+    font-size: 21px;
+    font-weight: 750;
+    line-height: 1.2;
+
+    color: #3a3a3a;
+}
+
+
+/* Адрес */
+
+.store-card__address {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+
+    margin-bottom: 17px;
+
+    font-size: 14px;
+    line-height: 1.6;
+
+    color: #777;
+}
+
+.store-card__address div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.store-card__address small {
+    font-size: 12px;
+    font-weight: 700;
+
+    color: #999;
+}
+
+.store-card__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+
+    font-size: 13px;
+
+    color: #3a3a3a;
+    background: #ffd21c;
+}
+
+
+/* Телефон */
+
+.store-card__phone {
+    display: inline-block;
+
+    margin-bottom: 18px;
+
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+
+    color: #3a3a3a;
+
+    transition: color 0.2s ease;
+}
+
+.store-card__phone:hover {
+    color: #ff4b1f;
+}
+
+
+/* График */
+
+.store-card__schedule {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 5px 15px;
+
+    padding: 14px 0;
+
+    margin-bottom: 18px;
+
+    font-size: 12px;
+
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.store-card__schedule span {
+    color: #999;
+}
+
+.store-card__schedule strong {
+    font-weight: 700;
+    color: #555;
+}
+
+
+/* Кнопки */
+
+.store-card__actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+
+    margin-top: auto;
+}
+
+.store-card__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 42px;
+    padding: 9px;
+
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+
+    color: #3a3a3a;
+
+    background: #f5f5f5;
+    border: 1px solid #dddddd;
+
+    transition:
+        background 0.25s ease,
+        border-color 0.25s ease,
+        color 0.25s ease;
+}
+
+.store-card__button:hover {
+    color: #3a3a3a;
+
+    background: #ffd21c;
+    border-color: #ffd21c;
+}
+
+.store-card__button--yandex:hover {
+    color: #ffffff;
+
+    background: #ff4b1f;
+    border-color: #ff4b1f;
+}
+
+
+/* ========================================
+   КАРТА
+======================================== */
+
+.contacts__map {
+    width: 100%;
+    height: 480px;
+
+    overflow: hidden;
+
+    background: #e4e4e4;
+    border: 1px solid #dddddd;
+}
+
+.contacts__map-placeholder {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent 49.5%,
+            #d6d6d6 50%,
+            transparent 50.5%
+        ),
+        linear-gradient(
+            0deg,
+            transparent 49.5%,
+            #d6d6d6 50%,
+            transparent 50.5%
+        ),
+        #eeeeee;
+
+    background-size: 100px 100px;
+}
+
+.contacts__map-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    padding: 18px 24px;
+
+    background: #ffffff;
+    border: 1px solid #dddddd;
+
+    box-shadow: 0 15px 35px rgba(90, 90, 90, 0.15);
+}
+
+.contacts__map-info div {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.contacts__map-info strong {
+    font-size: 15px;
+    color: #3a3a3a;
+}
+
+.contacts__map-info div span {
+    font-size: 12px;
+    color: #888;
+}
+
+.contacts__map-pin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 38px;
+    height: 38px;
+
+    font-size: 14px;
+
+    color: #3a3a3a;
+    background: #ffd21c;
+}
+
+
+/* ========================================
+   TABLET
+======================================== */
+
+@media (max-width: 991px) {
+
+    .contacts {
+        padding: 80px 0;
+    }
+
+    .contacts__header {
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .contacts__stores {
+        grid-template-columns: 1fr;
+    }
+
+    .store-card {
+        min-height: auto;
+    }
+
+    .contacts__map {
+        height: 400px;
+    }
+}
+
+
+/* ========================================
+   MOBILE
+======================================== */
+
+@media (max-width: 575px) {
+
+    .contacts {
+        padding: 60px 0;
+    }
+
+    .contacts__title {
+        font-size: 2.8rem;
+    }
+
+    .contacts__stores {
+        gap: 15px;
+    }
+
+    .store-card__number {
+        width: 45px;
+        padding-top: 20px;
+    }
+
+    .store-card__content {
+        padding: 20px;
+    }
+
+    .store-card__title {
+        font-size: 19px;
+    }
+
+    .store-card__actions {
+        grid-template-columns: 1fr;
+    }
+
+    .contacts__map {
+        height: 330px;
+    }
+}
