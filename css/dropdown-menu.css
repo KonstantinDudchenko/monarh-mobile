@@ -1,0 +1,23 @@
+/* Вложенное меню */
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+    margin-left: 0;
+}
+
+/* Показываем вложенное меню при наведении */
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+}
+
+/* Убираем Bootstrap-стрелку вниз у вложенного меню */
+.dropdown-submenu > .dropdown-toggle::after {
+    float: right;
+    margin-top: 7px;
+    transform: rotate(-90deg);
+}
