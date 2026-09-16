@@ -1,4 +1,4 @@
-<script>
+
 document.addEventListener('DOMContentLoaded', function () {
 
     const megaLinks = document.querySelectorAll(
@@ -46,4 +46,3 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
 });
-</script>
