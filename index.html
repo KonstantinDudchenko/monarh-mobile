@@ -16,28 +16,52 @@
   <link rel="stylesheet" href="css/new-products.css">
   <link rel="stylesheet" href="css/popular-products.css">
   <link rel="stylesheet" href="css/contacts.css">
-  <link rel="stylesheet" href="css/dropdown-menu.css">
+  <link rel="stylesheet" href="css/catalog.css">
+
 
 </head>
 
 <body>
 
-<!--Навигация-->
+<!-- Навигация -->
+
 <header class="header">
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg">
+
+    <div class="container-fluid px-4 px-lg-5">
+
+      <!-- Логотип -->
       <a class="navbar-brand" href="#">
-        <img src="img/logo.jpg" alt="Logo" width="60" height="60" class="d-inline-block align-text-top">
-        monarh mobile
+        <img src="img/logo.jpg" alt="Monarh Mobile">
+        <span>monarh mobile</span>
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+      <!-- Кнопка мобильного меню -->
+      <button class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#mainNavbar"
+              aria-controls="mainNavbar"
+              aria-expanded="false"
+              aria-label="Открыть меню">
+
         <span class="navbar-toggler-icon"></span>
+
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+      <!-- Основное меню -->
+      <div class="collapse navbar-collapse" id="mainNavbar">
+
+        <ul class="navbar-nav mx-auto mb-3 mb-lg-0">
+
+          <!-- ========================= -->
+          <!-- КАТАЛОГ -->
+          <!-- ========================= -->
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle active"
+
+            <a class="nav-link dropdown-toggle"
                href="#"
                role="button"
                data-bs-toggle="dropdown"
@@ -45,111 +69,251 @@
               Каталог
             </a>
 
-            <ul class="dropdown-menu">
+            <div class="dropdown-menu mega-menu">
 
-              <!-- Чехлы -->
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">
-                  Чехлы
-                </a>
+              <!-- ========================= -->
+              <!-- ЧЕХЛЫ -->
+              <!-- ========================= -->
 
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Для смартфонов
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Для планшетов
-                    </a>
-                  </li>
-                </ul>
-              </li>
+              <div class="mega-column">
 
-              <!-- Защита экрана -->
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">
-                  Защита экрана
-                </a>
+                <h6>Чехлы</h6>
 
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Защитное стекло
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Гидрогелевая плёнка
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Полиуретановая плёнка
-                    </a>
-                  </li>
-                </ul>
-              </li>
+                <!-- Подкатегория -->
+                <div class="mega-item">
 
-              <li>
-                <a class="dropdown-item" href="#">
-                  Зарядные устройства
-                </a>
-              </li>
+                  <a href="#" class="mega-link">
+                    Для смартфонов
+                    <span>›</span>
+                  </a>
 
-              <li>
-                <a class="dropdown-item" href="#">
-                  Кабели
-                </a>
-              </li>
+                  <!-- БРЕНДЫ — всплывают -->
+                  <div class="mega-popup">
 
-              <li>
-                <a class="dropdown-item" href="#">
-                  Power Bank
-                </a>
-              </li>
+                    <a href="#">Apple</a>
+                    <a href="#">Samsung</a>
+                    <a href="#">Xiaomi</a>
+                    <a href="#">Huawei</a>
+                    <a href="#">Honor</a>
+                    <a href="#">Realme</a>
+                    <a href="#">OnePlus</a>
+                    <a href="#">OPPO</a>
+                    <a href="#">Vivo</a>
 
-            </ul>
+                  </div>
+
+                </div>
+
+
+                <!-- Подкатегория -->
+                <div class="mega-item">
+
+                  <a href="#" class="mega-link">
+                    Для планшетов
+                    <span>›</span>
+                  </a>
+
+                  <!-- БРЕНДЫ -->
+                  <div class="mega-popup">
+
+                    <a href="#">Apple</a>
+                    <a href="#">Samsung</a>
+                    <a href="#">Xiaomi</a>
+                    <a href="#">Huawei</a>
+                    <a href="#">Lenovo</a>
+
+                  </div>
+
+                </div>
+
+
+                <!-- Подкатегория -->
+                <div class="mega-item">
+
+                  <a href="#" class="mega-link">
+                    Для наушников
+                    <span>›</span>
+                  </a>
+
+                  <!-- БРЕНДЫ -->
+                  <div class="mega-popup">
+
+                    <a href="#">Apple</a>
+                    <a href="#">Samsung</a>
+                    <a href="#">Xiaomi</a>
+                    <a href="#">Huawei</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+
+              <!-- ========================= -->
+              <!-- ЗАЩИТА ЭКРАНА -->
+              <!-- ========================= -->
+
+              <div class="mega-column">
+
+                <h6>Защита экрана</h6>
+
+                <div class="mega-item">
+
+                  <a href="#" class="mega-link">
+                    Защитные стекла
+                    <span>›</span>
+                  </a>
+
+                  <div class="mega-popup">
+
+                    <a href="#">Apple</a>
+                    <a href="#">Samsung</a>
+                    <a href="#">Xiaomi</a>
+                    <a href="#">Huawei</a>
+                    <a href="#">Honor</a>
+
+                  </div>
+
+                </div>
+
+                <div class="mega-item">
+
+                  <a href="#" class="mega-link">
+                    Гидрогелевые пленки
+                  </a>
+
+                </div>
+
+                <div class="mega-item">
+
+                  <a href="#" class="mega-link">
+                    Полиуретановые пленки
+                  </a>
+
+                </div>
+
+              </div>
+
+
+              <!-- ========================= -->
+              <!-- ЗАРЯДКА -->
+              <!-- ========================= -->
+
+              <div class="mega-column">
+
+                <h6>Зарядка</h6>
+
+                <a class="mega-link" href="#">Зарядные устройства</a>
+                <a class="mega-link" href="#">Кабели</a>
+                <a class="mega-link" href="#">Беспроводные зарядки</a>
+                <a class="mega-link" href="#">Power Bank</a>
+
+              </div>
+
+
+              <!-- ========================= -->
+              <!-- АУДИО -->
+              <!-- ========================= -->
+
+              <div class="mega-column">
+
+                <h6>Аудио</h6>
+
+                <a class="mega-link" href="#">Наушники</a>
+                <a class="mega-link" href="#">Колонки</a>
+                <a class="mega-link" href="#">Микрофоны</a>
+
+              </div>
+
+            </div>
+
           </li>
 
 
+          <!-- ========================= -->
+          <!-- ПОПУЛЯРНОЕ -->
+          <!-- ========================= -->
 
-          <!--<li class="nav-item dropdown ">
-            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Каталог
+          <li class="nav-item">
+
+            <a class="nav-link"
+               href="#popular-products">
+
+              Популярное
+
             </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Чехлы для смартфона</a></li>
-              <li><a class="dropdown-item" href="#">Зарыдные устройства</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>-->
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Подбор аксессуаров по модели устройства</a>
+
           </li>
+
+
+          <!-- ========================= -->
+          <!-- НОВИНКИ -->
+          <!-- ========================= -->
+
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Акции</a>
+
+            <a class="nav-link"
+               href="#new-products">
+
+              Новинки
+
+            </a>
+
           </li>
+
+
+          <!-- ========================= -->
+          <!-- КОНТАКТЫ -->
+          <!-- ========================= -->
+
           <li class="nav-item">
-            <a class="nav-link active" href="#">Новинки</a>
+
+            <a class="nav-link"
+               href="#contacts">
+
+              Контакты
+
+            </a>
+
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">О нас</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Контакты</a>
-          </li>
+
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Пиши, чтоб найти" aria-label="Search"/>
-          <button class="btn btn-outline-success" type="submit">Поиск</button>
+
+
+        <!-- ========================= -->
+        <!-- ПОИСК -->
+        <!-- ========================= -->
+
+        <form class="search-form">
+
+          <input
+                  class="form-control"
+                  type="search"
+                  placeholder="Поиск товаров..."
+                  aria-label="Поиск">
+
+          <button
+                  class="search-button"
+                  type="submit">
+
+            Поиск
+
+          </button>
+
         </form>
+
       </div>
+
     </div>
+
   </nav>
 </header>
+
+
+<!-- ========================= -->
+<!-- JAVASCRIPT -->
+<!-- ========================= -->
 
 <main>
 
@@ -846,6 +1010,9 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+<!-- содержимое каталога -->
+<script src="js/catalog.js"></script>
 
 </body>
 </html>

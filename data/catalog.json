@@ -1,0 +1,366 @@
+[
+  {
+    "name": "Чехлы",
+    "children": [
+      {
+        "name": "Для смартфонов",
+        "children": [
+          { "name": "iPhone" },
+          { "name": "Samsung" },
+          { "name": "Xiaomi" },
+          { "name": "Redmi" },
+          { "name": "Poco" },
+          { "name": "Honor" },
+          { "name": "Realme" },
+          { "name": "Huawei" },
+          { "name": "Другие бренды" },
+          { "name": "Универсальные" }
+        ]
+      },
+      {
+        "name": "Для планшетов",
+        "children": [
+          { "name": "iPhone" },
+          { "name": "Samsung" },
+          { "name": "Xiaomi" },
+          { "name": "Redmi" },
+          { "name": "Poco" },
+          { "name": "Honor" },
+          { "name": "Realme" },
+          { "name": "Huawei" },
+          { "name": "Другие бренды" },
+          { "name": "Универсальные" }
+        ]
+      },
+      {
+        "name": "Для наушников",
+        "children": [
+          { "name": "AirPods" },
+          { "name": "AirPods Pro" },
+          { "name": "Samsung Galaxy Buds" },
+          { "name": "Xiaomi Buds" },
+          { "name": "Другие бренды" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "name": "Защитные стекла и пленки",
+    "children": [
+      {
+        "name": "Для смартфонов",
+        "children": [
+          { "name": "iPhone" },
+          { "name": "Samsung" },
+          { "name": "Xiaomi" },
+          { "name": "Redmi" },
+          { "name": "Poco" },
+          { "name": "Honor" },
+          { "name": "Realme" },
+          { "name": "Huawei" },
+          { "name": "Другие бренды" },
+          { "name": "Универсальные" }
+        ]
+      },
+      {
+        "name": "Для планшетов",
+        "children": [
+          { "name": "iPhone" },
+          { "name": "Samsung" },
+          { "name": "Другие бренды" },
+          { "name": "Универсальные" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "name": "Кабели",
+    "children": [
+      {
+        "name": "Для смартфонов",
+        "children": [
+          { "name": "USB-A → USB-C" },
+          { "name": "USB-C → USB-C" },
+          { "name": "USB-C → Lightning" },
+          { "name": "USB-A → Lightning" },
+          { "name": "USB-A → Micro-USB" }
+        ]
+      },
+      {
+        "name": "Для планшетов",
+        "children": [
+          { "name": "USB-C → USB-C" },
+          { "name": "USB-A → USB-C" },
+          { "name": "Lightning" }
+        ]
+      },
+      {
+        "name": "Для ноутбуков",
+        "children": [
+          { "name": "USB-C → USB-C" },
+          { "name": "USB-C → HDMI" },
+          { "name": "HDMI → HDMI" }
+        ]
+      },
+      {
+        "name": "Аудио",
+        "children": [
+          { "name": "AUX" },
+          { "name": "USB-C → 3.5 мм" },
+          { "name": "Lightning → 3.5 мм" }
+        ]
+      },
+      {
+        "name": "Видео",
+        "children": [
+          { "name": "HDMI → HDMI" },
+          { "name": "USB-C → HDMI" },
+          { "name": "DisplayPort → HDMI" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "name": "Зарядные устройства",
+    "children": [
+      {
+        "name": "Сетевые",
+        "children": [
+          { "name": "USB-A" },
+          { "name": "USB-C" },
+          { "name": "USB-A + USB-C" },
+          { "name": "GaN" }
+        ]
+      },
+      {
+        "name": "Автомобильные",
+        "children": [
+          { "name": "USB-A" },
+          { "name": "USB-C" },
+          { "name": "USB-A + USB-C" }
+        ]
+      },
+      {
+        "name": "Беспроводные",
+        "children": [
+          { "name": "Qi" },
+          { "name": "MagSafe / магнитные" },
+          { "name": "3-в-1" }
+        ]
+      },
+      {
+        "name": "Для ноутбуков",
+        "children": [
+          { "name": "USB-C PD" },
+          { "name": "Специализированные" }
+        ]
+      },
+      {
+        "name": "Многофункциональные",
+        "children": [
+          { "name": "Зарядные станции" },
+          { "name": "Док-станции" },
+          { "name": "Зарядки для нескольких устройств" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "name": "Аудио",
+    "children": [
+      {
+        "name": "Наушники",
+        "children": [
+          { "name": "TWS" },
+          { "name": "Bluetooth" },
+          { "name": "Проводные" },
+          { "name": "Игровые" }
+        ]
+      },
+      {
+        "name": "Портативные колонки",
+        "children": [
+          { "name": "Bluetooth" },
+          { "name": "Мини-колонки" },
+          { "name": "Мощные" }
+        ]
+      },
+      {
+        "name": "Акустика",
+        "children": [
+          { "name": "Компьютерная" },
+          { "name": "2.0" },
+          { "name": "2.1" },
+          { "name": "Soundbar" }
+        ]
+      },
+      {
+        "name": "Микрофоны",
+        "children": [
+          { "name": "Петличные" },
+          { "name": "Беспроводные" },
+          { "name": "USB" },
+          { "name": "Для смартфона" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "name": "Power Bank",
+    "children": [
+      {
+        "name": "Обычные",
+        "children": [
+          { "name": "5 000 mAh" },
+          { "name": "10 000 mAh" },
+          { "name": "20 000 mAh" },
+          { "name": "30 000+ mAh" }
+        ]
+      },
+      {
+        "name": "Быстрая зарядка",
+        "children": [
+          { "name": "20W" },
+          { "name": "22.5W" },
+          { "name": "30W" },
+          { "name": "45W" },
+          { "name": "65W+" }
+        ]
+      },
+      {
+        "name": "Магнитные",
+        "children": [
+          { "name": "MagSafe" },
+          { "name": "Qi2" }
+        ]
+      },
+      {
+        "name": "С встроенными кабелями",
+        "children": [
+          { "name": "USB-C" },
+          { "name": "Lightning" },
+          { "name": "USB-C + Lightning" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "name": "Для авто",
+    "children": [
+      {
+        "name": "Зарядка",
+        "children": [
+          { "name": "Автомобильные зарядные устройства" },
+          { "name": "USB-C PD" },
+          { "name": "USB-A" },
+          { "name": "USB-A + USB-C" }
+        ]
+      },
+      {
+        "name": "Держатели",
+        "children": [
+          { "name": "Магнитные" },
+          { "name": "На присоске" },
+          { "name": "На воздуховод" },
+          { "name": "На панель" },
+          { "name": "На подголовник" }
+        ]
+      },
+      {
+        "name": "Кабели",
+        "children": [
+          { "name": "USB-C" },
+          { "name": "Lightning" },
+          { "name": "Micro-USB" },
+          { "name": "AUX" }
+        ]
+      },
+      {
+        "name": "FM-трансмиттеры",
+        "children": [
+          { "name": "Bluetooth" },
+          { "name": "С быстрой зарядкой" }
+        ]
+      },
+      {
+        "name": "Автоэлектроника",
+        "children": [
+          { "name": "Видеорегистраторы" },
+          { "name": "Камеры заднего вида" },
+          { "name": "Парктроники" },
+          { "name": "Автосканеры OBD" }
+        ]
+      },
+      {
+        "name": "Разветвители",
+        "children": [
+          { "name": "12V" },
+          { "name": "12V + USB" },
+          { "name": "12V + USB-C" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "name": "Переходники и адаптеры"
+  },
+
+  {
+    "name": "Смарт-часы и браслеты"
+  },
+
+  {
+    "name": "Карты памяти и USB-флешки"
+  },
+
+  {
+    "name": "Для геймеров"
+  },
+
+  {
+    "name": "Компьютерные аксессуары",
+    "children": [
+      { "name": "Клавиатуры и мыши" },
+      { "name": "Игровые аксессуары" },
+      { "name": "Веб-камеры и микрофоны" },
+      { "name": "Компьютерная акустика" },
+      { "name": "Флешки и карты памяти" },
+      { "name": "USB-аксессуары" },
+      { "name": "Сетевое оборудование" },
+      { "name": "Аксессуары для ноутбуков" },
+      { "name": "Чистка и инструменты" }
+    ]
+  },
+
+  {
+    "name": "Освещение",
+    "children": [
+      { "name": "Кольцевые лампы" },
+      { "name": "Настольные лампы" },
+      { "name": "LED-лампы" },
+      { "name": "Лампы для селфи/видео" },
+      { "name": "Ночники" }
+    ]
+  },
+
+  {
+    "name": "Фото и видео",
+    "children": [
+      { "name": "Селфи-палки" },
+      { "name": "Штативы и моноподы" },
+      { "name": "Стойки и крепления" },
+      { "name": "Стабилизаторы" }
+    ]
+  },
+
+  {
+    "name": "Ремонт телефонов"
+  }
+]

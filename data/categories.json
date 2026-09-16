@@ -1,0 +1,299 @@
+{
+  "categories": [
+    {
+      "id": "smartphones-tablets",
+      "name": "Смартфоны и планшеты",
+      "subcategories": [
+        {
+          "id": "cases",
+          "name": "Чехлы",
+          "file": "data/products/cases.json"
+        },
+        {
+          "id": "tablets",
+          "name": "Планшеты",
+          "file": "data/products/tablets.json"
+        },
+        {
+          "id": "styluses",
+          "name": "Стилусы",
+          "file": "data/products/styluses.json"
+        },
+        {
+          "id": "screens",
+          "name": "Экраны",
+          "file": "data/products/screens.json"
+        },
+        {
+          "id": "smartphone-lenses",
+          "name": "Объективы для смартфонов",
+          "file": "data/products/smartphone-lenses.json"
+        },
+        {
+          "id": "stickers",
+          "name": "Наклейки",
+          "file": "data/products/stickers.json"
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "name": "Аудио",
+      "subcategories": [
+        {
+          "id": "headphones",
+          "name": "Наушники",
+          "subcategories": [
+            {
+              "id": "wireless-headphones",
+              "name": "Беспроводные наушники",
+              "file": "data/products/wireless-headphones.json"
+            },
+            {
+              "id": "wired-headphones",
+              "name": "Проводные наушники",
+              "file": "data/products/wired-headphones.json"
+            },
+            {
+              "id": "tws",
+              "name": "TWS-наушники",
+              "file": "data/products/tws.json"
+            }
+          ]
+        },
+        {
+          "id": "speakers",
+          "name": "Акустика",
+          "file": "data/products/speakers.json"
+        },
+        {
+          "id": "soundbars",
+          "name": "Саундбары",
+          "file": "data/products/soundbars.json"
+        },
+        {
+          "id": "radios",
+          "name": "Радио",
+          "file": "data/products/radios.json"
+        }
+      ]
+    },
+    {
+      "id": "computers",
+      "name": "Компьютеры",
+      "subcategories": [
+        {
+          "id": "keyboards",
+          "name": "Клавиатуры",
+          "file": "data/products/keyboards.json"
+        },
+        {
+          "id": "mice",
+          "name": "Мыши",
+          "file": "data/products/mice.json"
+        },
+        {
+          "id": "memory",
+          "name": "Память",
+          "file": "data/products/memory.json"
+        },
+        {
+          "id": "laptop-stands",
+          "name": "Подставки под ноутбук",
+          "file": "data/products/laptop-stands.json"
+        },
+        {
+          "id": "printers",
+          "name": "Принтеры",
+          "file": "data/products/printers.json"
+        },
+        {
+          "id": "adapters",
+          "name": "Адаптеры",
+          "file": "data/products/adapters.json"
+        }
+      ]
+    },
+    {
+      "id": "gaming",
+      "name": "Игры",
+      "subcategories": [
+        {
+          "id": "gaming-consoles",
+          "name": "Игровые консоли",
+          "file": "data/products/gaming-consoles.json"
+        },
+        {
+          "id": "gamepads",
+          "name": "Игровые джойстики",
+          "file": "data/products/gamepads.json"
+        },
+        {
+          "id": "gaming-gloves",
+          "name": "Игровые перчатки",
+          "file": "data/products/gaming-gloves.json"
+        },
+        {
+          "id": "gaming-accessories",
+          "name": "Для геймеров",
+          "file": "data/products/gaming-accessories.json"
+        }
+      ]
+    },
+    {
+      "id": "charging-power",
+      "name": "Зарядка и питание",
+      "subcategories": [
+        {
+          "id": "cables",
+          "name": "Кабели",
+          "file": "data/products/cables.json"
+        },
+        {
+          "id": "powerbanks",
+          "name": "Повербанки",
+          "file": "data/products/powerbanks.json"
+        },
+        {
+          "id": "charging-stations",
+          "name": "Зарядные станции",
+          "file": "data/products/charging-stations.json"
+        },
+        {
+          "id": "smartwatch-chargers",
+          "name": "Зарядные станции для часов",
+          "file": "data/products/smartwatch-chargers.json"
+        }
+      ]
+    },
+    {
+      "id": "photo-video",
+      "name": "Фото и видео",
+      "subcategories": [
+        {
+          "id": "cameras",
+          "name": "Камеры",
+          "file": "data/products/cameras.json"
+        },
+        {
+          "id": "dash-cams",
+          "name": "Видеорегистраторы",
+          "file": "data/products/dash-cams.json"
+        },
+        {
+          "id": "tripods",
+          "name": "Штативы",
+          "file": "data/products/tripods.json"
+        },
+        {
+          "id": "lenses",
+          "name": "Объективы",
+          "file": "data/products/lenses.json"
+        },
+        {
+          "id": "camera-detectors",
+          "name": "Детекторы камер",
+          "file": "data/products/camera-detectors.json"
+        },
+        {
+          "id": "phone-holders",
+          "name": "Держатели для телефона",
+          "file": "data/products/phone-holders.json"
+        }
+      ]
+    },
+    {
+      "id": "smart-home",
+      "name": "Дом и гаджеты",
+      "subcategories": [
+        {
+          "id": "night-lights",
+          "name": "Ночники",
+          "file": "data/products/night-lights.json"
+        },
+        {
+          "id": "lamps",
+          "name": "Светильники",
+          "file": "data/products/lamps.json"
+        },
+        {
+          "id": "fans",
+          "name": "Вентиляторы",
+          "file": "data/products/fans.json"
+        },
+        {
+          "id": "humidifiers",
+          "name": "Увлажнители",
+          "file": "data/products/humidifiers.json"
+        },
+        {
+          "id": "timers",
+          "name": "Таймеры",
+          "file": "data/products/timers.json"
+        },
+        {
+          "id": "smartwatches",
+          "name": "Смарт-часы",
+          "file": "data/products/smartwatches.json"
+        },
+        {
+          "id": "trackers",
+          "name": "Трекеры",
+          "file": "data/products/trackers.json"
+        }
+      ]
+    },
+    {
+      "id": "tools-care",
+      "name": "Инструменты и уход",
+      "subcategories": [
+        {
+          "id": "screwdriver-sets",
+          "name": "Наборы отвёрток",
+          "file": "data/products/screwdriver-sets.json"
+        },
+        {
+          "id": "cleaning-kits",
+          "name": "Наборы для очистки",
+          "file": "data/products/cleaning-kits.json"
+        },
+        {
+          "id": "air-blowers",
+          "name": "Турбовоздуходувки",
+          "file": "data/products/air-blowers.json"
+        },
+        {
+          "id": "hygiene",
+          "name": "Гигиена",
+          "file": "data/products/hygiene.json"
+        },
+        {
+          "id": "shavers",
+          "name": "Бритвы",
+          "file": "data/products/shavers.json"
+        }
+      ]
+    },
+    {
+      "id": "accessories",
+      "name": "Аксессуары",
+      "subcategories": [
+        {
+          "id": "remote-controls",
+          "name": "Пульты",
+          "file": "data/products/remote-controls.json"
+        },
+        {
+          "id": "keychains",
+          "name": "Брелоки",
+          "file": "data/products/keychains.json"
+        },
+        {
+          "id": "stands",
+          "name": "Подставки",
+          "file": "data/products/stands.json"
+        }
+      ]
+    }
+  ]
+}

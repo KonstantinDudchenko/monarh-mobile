@@ -874,3 +874,11 @@ body {
     }
 
 }
+
+.catalog {
+    display: none;
+}
+
+.catalog.open {
+    display: block;
+}
