@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Прозрачный силиконовый чехол",
+    "price": 250,
+    "image": "img/products/cases/iphone-11/clear.jpg",
+    "description": "Прозрачный силиконовый чехол",
+    "attributes": {
+      "color": "Прозрачный",
+      "material": "TPU",
+      "type": "Силиконовый",
+      "cameraProtection": true,
+      "screenProtection": true,
+      "magsafe": false,
+      "wirelessCharging": true,
+      "thickness": 1.5
+    }
+  },
+  {
+    "name": "Матовый силиконовый чехол",
+    "price": 350,
+    "image": "img/products/cases/iphone-11/matte-black.jpg",
+    "description": "Матовый чехол",
+    "attributes": {
+      "color": "Черный",
+      "material": "Силикон",
+      "type": "Матовый",
+      "cameraProtection": true,
+      "screenProtection": true,
+      "magsafe": false,
+      "wirelessCharging": true,
+      "thickness": 2
+    }
+  },
+  {
+    "name": "Чехол MagSafe",
+    "price": 490,
+    "image": "img/products/cases/iphone-11/magsafe.jpg",
+    "description": "Защитный чехол с поддержкой MagSafe",
+    "attributes": {
+      "color": "Прозрачный",
+      "material": "TPU",
+      "type": "Защитный",
+      "cameraProtection": true,
+      "screenProtection": true,
+      "magsafe": true,
+      "wirelessCharging": true,
+      "thickness": 2
+    }
+  },
+  {
+    "name": "Противоударный чехол",
+    "price": 590,
+    "image": "img/products/cases/iphone-11/shockproof.jpg",
+    "description": "Противоударный чехол с усиленными углами",
+    "attributes": {
+      "color": "Черный",
+      "material": "TPU + поликарбонат",
+      "type": "Противоударный",
+      "cameraProtection": true,
+      "screenProtection": true,
+      "magsafe": false,
+      "wirelessCharging": true,
+      "thickness": 2.5
+    }
+  },
+  {
+    "name": "Кожаный чехол",
+    "price": 850,
+    "image": "img/products/cases/iphone-11/leather-brown.jpg",
+    "description": "Кожаный чехол премиум-класса",
+    "attributes": {
+      "color": "Коричневый",
+      "material": "Кожа",
+      "type": "Премиум",
+      "cameraProtection": true,
+      "screenProtection": true,
+      "magsafe": true,
+      "wirelessCharging": true,
+      "thickness": 2
+    }
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "name": "FM-модулятор Bluetooth Baseus S-09",
+    "brand": "Baseus",
+    "model": "S-09",
+    "type": "FM-модулятор",
+    "features": [
+      "Bluetooth 5.0",
+      "USB",
+      "Зарядка смартфона",
+      "Громкая связь"
+    ],
+    "variants": [
+      {
+        "color": "Чёрный",
+        "price": 650,
+        "stock": 4
+      }
+    ],
+    "images": [
+      "img/products/car/fm/baseus-s09-1.jpg",
+      "img/products/car/fm/baseus-s09-2.jpg"
+    ]
+  },
+  {
+    "name": "FM-модулятор Bluetooth Hoco E45",
+    "brand": "Hoco",
+    "model": "E45",
+    "type": "FM-модулятор",
+    "features": [
+      "Bluetooth 5.0",
+      "USB",
+      "MicroSD",
+      "Громкая связь"
+    ],
+    "variants": [
+      {
+        "color": "Чёрный",
+        "price": 490,
+        "stock": 6
+      }
+    ],
+    "images": [
+      "img/products/car/fm/hoco-e45-1.jpg",
+      "img/products/car/fm/hoco-e45-2.jpg"
+    ]
+  },
+  {
+    "name": "FM-модулятор Bluetooth Borofone BC36",
+    "brand": "Borofone",
+    "model": "BC36",
+    "type": "FM-модулятор",
+    "features": [
+      "Bluetooth 5.0",
+      "USB",
+      "MicroSD",
+      "Громкая связь",
+      "Дисплей"
+    ],
+    "variants": [
+      {
+        "color": "Чёрный",
+        "price": 550,
+        "stock": 3
+      }
+    ],
+    "images": [
+      "img/products/car/fm/borofone-bc36-1.jpg",
+      "img/products/car/fm/borofone-bc36-2.jpg"
+    ]
+  },
+  {
+    "name": "FM-модулятор Bluetooth XO BCC02",
+    "brand": "XO",
+    "model": "BCC02",
+    "type": "FM-модулятор",
+    "features": [
+      "Bluetooth",
+      "USB",
+      "Быстрая зарядка",
+      "Громкая связь"
+    ],
+    "variants": [
+      {
+        "color": "Чёрный",
+        "price": 590,
+        "stock": 5
+      }
+    ],
+    "images": [
+      "img/products/car/fm/xo-bcc02-1.jpg",
+      "img/products/car/fm/xo-bcc02-2.jpg"
+    ]
+  },
+  {
+    "name": "FM-модулятор Bluetooth Remax RCC208",
+    "brand": "Remax",
+    "model": "RCC208",
+    "type": "FM-модулятор",
+    "features": [
+      "Bluetooth",
+      "USB",
+      "MicroSD",
+      "Громкая связь",
+      "Дисплей"
+    ],
+    "variants": [
+      {
+        "color": "Чёрный",
+        "price": 620,
+        "stock": 2
+      }
+    ],
+    "images": [
+      "img/products/car/fm/remax-rcc208-1.jpg",
+      "img/products/car/fm/remax-rcc208-2.jpg"
+    ]
+  }
+]

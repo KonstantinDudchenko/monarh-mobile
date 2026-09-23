@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Power Bank 10000 мАч 22.5W",
+    "price": 650,
+    "image": "img/products/power-banks/powerbank-10000-225w.jpg",
+    "description": "Компактный внешний аккумулятор с быстрой зарядкой",
+    "attributes": {
+      "capacity": 10000,
+      "outputPower": 22.5,
+      "inputPower": 18,
+      "ports": "USB-A + Type-C",
+      "outputPorts": 2,
+      "fastCharging": true,
+      "display": false,
+      "wirelessCharging": false,
+      "color": "Черный"
+    }
+  },
+  {
+    "name": "Power Bank 20000 мАч 22.5W",
+    "price": 850,
+    "image": "img/products/power-banks/powerbank-20000-225w.jpg",
+    "description": "Мощный внешний аккумулятор для смартфонов и планшетов",
+    "attributes": {
+      "capacity": 20000,
+      "outputPower": 22.5,
+      "inputPower": 18,
+      "ports": "USB-A + Type-C",
+      "outputPorts": 2,
+      "fastCharging": true,
+      "display": true,
+      "wirelessCharging": false,
+      "color": "Черный"
+    }
+  },
+  {
+    "name": "Power Bank 10000 мАч MagSafe",
+    "price": 990,
+    "image": "img/products/power-banks/powerbank-10000-magsafe.jpg",
+    "description": "Компактный аккумулятор с беспроводной зарядкой MagSafe",
+    "attributes": {
+      "capacity": 10000,
+      "outputPower": 20,
+      "inputPower": 18,
+      "ports": "Type-C",
+      "outputPorts": 1,
+      "fastCharging": true,
+      "display": false,
+      "wirelessCharging": true,
+      "magsafe": true,
+      "color": "Белый"
+    }
+  },
+  {
+    "name": "Power Bank 20000 мАч 65W",
+    "price": 1450,
+    "image": "img/products/power-banks/powerbank-20000-65w.jpg",
+    "description": "Высокомощный внешний аккумулятор для смартфонов, планшетов и ноутбуков",
+    "attributes": {
+      "capacity": 20000,
+      "outputPower": 65,
+      "inputPower": 65,
+      "ports": "USB-A + Type-C",
+      "outputPorts": 2,
+      "fastCharging": true,
+      "display": true,
+      "wirelessCharging": false,
+      "color": "Серый"
+    }
+  },
+  {
+    "name": "Power Bank 30000 мАч 22.5W",
+    "price": 1250,
+    "image": "img/products/power-banks/powerbank-30000-225w.jpg",
+    "description": "Вместительный внешний аккумулятор для длительных поездок и путешествий",
+    "attributes": {
+      "capacity": 30000,
+      "outputPower": 22.5,
+      "inputPower": 18,
+      "ports": "USB-A + Type-C",
+      "outputPorts": 3,
+      "fastCharging": true,
+      "display": true,
+      "wirelessCharging": false,
+      "color": "Черный"
+    }
+  }
+]

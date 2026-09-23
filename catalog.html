@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Каталог | Monarh Mobile</title>
+
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/catalog.css">
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div id="header-container"></div>
+
+
+<!-- КАТАЛОГ -->
+<main>
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <!-- ФИЛЬТРЫ -->
+            <aside class="col-lg-3 col-md-4">
+
+                <div id="filters"></div>
+
+            </aside>
+
+
+            <!-- ТОВАРЫ -->
+            <section class="col-lg-9 col-md-8">
+
+                <!-- Заголовок -->
+                <div class="d-flex justify-content-between align-items-center mb-4">
+
+                    <div>
+
+                        <h1 id="catalogTitle"></h1>
+
+                        <span id="productsCount"></span>
+
+                    </div>
+
+
+                    <!-- Сортировка -->
+                    <select
+                            id="sortProducts"
+                            class="form-select"
+                            style="max-width: 220px;"
+                    >
+
+                        <option value="default">
+                            По умолчанию
+                        </option>
+
+                        <option value="price-asc">
+                            Сначала дешевые
+                        </option>
+
+                        <option value="price-desc">
+                            Сначала дорогие
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- ТОВАРЫ -->
+                <div
+                        id="productsGrid"
+                        class="row g-4"
+                ></div>
+
+            </section>
+
+        </div>
+
+    </div>
+
+</main>
+
+
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+</script>
+
+<script src="js/main.js"></script>
+
+<script
+        type="module"
+        src="js/сatalog/catalog.js">
+</script>
+
+</body>
+
+</html>

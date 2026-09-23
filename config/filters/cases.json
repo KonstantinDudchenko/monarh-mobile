@@ -1,0 +1,35 @@
+{
+  "color": {
+    "label": "Цвет",
+    "type": "select"
+  },
+  "material": {
+    "label": "Материал",
+    "type": "select"
+  },
+  "type": {
+    "label": "Тип чехла",
+    "type": "select"
+  },
+  "cameraProtection": {
+    "label": "Защита камеры",
+    "type": "boolean"
+  },
+  "screenProtection": {
+    "label": "Защита экрана",
+    "type": "boolean"
+  },
+  "magsafe": {
+    "label": "MagSafe",
+    "type": "boolean"
+  },
+  "wirelessCharging": {
+    "label": "Беспроводная зарядка",
+    "type": "boolean"
+  },
+  "thickness": {
+    "label": "Толщина",
+    "type": "range",
+    "unit": "мм"
+  }
+}
