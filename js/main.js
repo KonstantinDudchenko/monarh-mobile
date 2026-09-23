@@ -9,37 +9,149 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     try {
 
-        const response = await fetch("header.html");
+        const response =
+            await fetch("header.html");
 
         if (!response.ok) {
-            throw new Error("Не удалось загрузить header");
+            throw new Error(
+                "Не удалось загрузить header"
+            );
         }
 
-        headerContainer.innerHTML = await response.text();
+        headerContainer.innerHTML =
+            await response.text();
+
+        // Инициализация меню после загрузки header
+        initMegaMenu();
+
+        // Инициализация ссылок каталога
+        initCatalogLinks();
 
     } catch (error) {
-        console.error("Ошибка загрузки header:", error);
+
+        console.error(
+            "Ошибка загрузки header:",
+            error
+        );
     }
 
 });
 
-document.addEventListener("DOMContentLoaded", () => {
 
-    document.querySelectorAll(".catalog-link").forEach(link => {
+/* =========================================
+   MEGA MENU
+   ========================================= */
 
-        link.addEventListener("click", () => {
+function initMegaMenu() {
 
-            const json = link.dataset.json;
-            const filters = link.dataset.filterConfig;
+    const megaItems =
+        document.querySelectorAll(".mega-item");
 
-            const url = new URL(link.href, window.location.href);
+    megaItems.forEach(item => {
 
-            url.searchParams.set("json", json);
-            url.searchParams.set("filters", filters);
+        const link =
+            item.querySelector(":scope > .mega-link");
 
-            link.href = url.toString();
+        const popup =
+            item.querySelector(":scope > .mega-popup");
+
+        // Если у пункта нет вложенного меню,
+        // обработчик не нужен
+        if (!link || !popup) {
+            return;
+        }
+
+        link.addEventListener("click", event => {
+
+            // На компьютере работает CSS :hover
+            if (window.innerWidth > 991.98) {
+                return;
+            }
+
+            // На мобильном не переходим по #
+            event.preventDefault();
+
+            // Не даём событию открыть/закрыть
+            // родительские пункты
+            event.stopPropagation();
+
+            const parent =
+                item.parentElement;
+
+            // Закрываем соседние пункты
+            parent
+                .querySelectorAll(
+                    ":scope > .mega-item.open"
+                )
+                .forEach(openItem => {
+
+                    if (openItem !== item) {
+
+                        openItem.classList.remove(
+                            "open"
+                        );
+
+                    }
+
+                });
+
+            // Переключаем текущий пункт
+            item.classList.toggle("open");
+
         });
 
     });
 
-});
+}
+
+
+/* =========================================
+   ССЫЛКИ КАТАЛОГА
+   ========================================= */
+
+function initCatalogLinks() {
+
+    document
+        .querySelectorAll(".catalog-link")
+        .forEach(link => {
+
+            link.addEventListener("click", () => {
+
+                const json =
+                    link.dataset.json;
+
+                const filters =
+                    link.dataset.filterConfig;
+
+                if (!json) {
+                    return;
+                }
+
+                const url =
+                    new URL(
+                        link.href,
+                        window.location.href
+                    );
+
+                url.searchParams.set(
+                    "json",
+                    json
+                );
+
+                if (filters) {
+
+                    url.searchParams.set(
+                        "filters",
+                        filters
+                    );
+
+                }
+
+                link.href =
+                    url.toString();
+
+            });
+
+        });
+
+}

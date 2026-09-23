@@ -1,10 +1,11 @@
-/* =========================================
-   MEGA MENU — DESKTOP
-   ========================================= */
+ /* =========================================
+    MEGA MENU
+    ========================================= */
 
 .mega-menu {
     width: 1000px;
     max-width: 90vw;
+
     padding: 25px;
 
     display: none;
@@ -13,9 +14,17 @@
     gap: 30px;
 }
 
+
+/* Открытое главное меню */
+
 .mega-menu.show {
     display: grid;
 }
+
+
+/* =========================================
+   КОЛОНКИ
+   ========================================= */
 
 .mega-column {
     position: relative;
@@ -23,16 +32,20 @@
 
 .mega-column h6 {
     margin-bottom: 12px;
+
     font-size: 16px;
     font-weight: 700;
 }
 
 
-/* Подкатегория */
+/* =========================================
+   ПУНКТЫ
+   ========================================= */
 
 .mega-item {
     position: relative;
 }
+
 
 .mega-link {
     display: flex;
@@ -40,12 +53,17 @@
     align-items: center;
 
     width: 100%;
+
     padding: 7px 8px;
 
     color: #333;
     text-decoration: none;
+
     white-space: nowrap;
+
+    cursor: pointer;
 }
+
 
 .mega-link:hover {
     color: #e53935;
@@ -54,13 +72,15 @@
 
 
 /* =========================================
-   ВСПЛЫВАЮЩЕЕ ОКНО БРЕНДОВ — DESKTOP
+   ВЛОЖЕННОЕ МЕНЮ — DESKTOP
    ========================================= */
 
 .mega-popup {
+
     display: none;
 
     position: absolute;
+
     top: 0;
     left: 100%;
 
@@ -69,34 +89,45 @@
     padding: 10px;
 
     background: #fff;
+
     border: 1px solid #ddd;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.15);
 
     z-index: 2000;
 }
 
 
-/* Наведение */
+/* Открытие через наведение */
 
 .mega-item:hover > .mega-popup {
     display: block;
 }
 
 
-/* Бренды */
+/* =========================================
+   ССЫЛКИ ВО ВЛОЖЕННОМ МЕНЮ
+   ========================================= */
 
 .mega-popup a {
+
     display: block;
 
     padding: 7px 10px;
 
     color: #333;
+
     text-decoration: none;
+
     white-space: nowrap;
 }
 
+
 .mega-popup a:hover {
+
     background: #f5f5f5;
+
     color: #e53935;
 }
 
@@ -107,7 +138,10 @@
 
 @media (max-width: 991.98px) {
 
+    /* Главное меню */
+
     .mega-menu {
+
         width: 100%;
         max-width: 100%;
 
@@ -118,38 +152,56 @@
         display: none;
 
         grid-template-columns: 1fr;
+
         gap: 0;
 
         border: 0;
+
         box-shadow: none;
     }
+
+
+    /* Главное меню открыто */
 
     .mega-menu.show {
         display: block;
     }
 
 
+    /* =====================================
+       КОЛОНКИ
+       ===================================== */
+
     .mega-column {
+
         margin-bottom: 20px;
     }
 
 
     .mega-column h6 {
+
         margin: 10px 0 5px;
+
         font-size: 16px;
     }
 
 
-    /* Пункт меню */
+    /* =====================================
+       ПУНКТ
+       ===================================== */
 
     .mega-item {
+
         position: relative;
     }
 
 
     .mega-link {
+
         display: flex;
+
         justify-content: space-between;
+
         align-items: center;
 
         width: 100%;
@@ -159,13 +211,16 @@
         font-size: 15px;
 
         color: #333;
+
         text-decoration: none;
+
+        cursor: pointer;
     }
 
 
-    /* =================================
+    /* =====================================
        ВЛОЖЕННОЕ МЕНЮ
-       ================================= */
+       ===================================== */
 
     .mega-popup {
 
@@ -181,20 +236,27 @@
         background: #f7f7f7;
 
         border: 0;
+
         box-shadow: none;
     }
 
 
-    /* ОТКРЫТО */
+    /* =====================================
+       ОТКРЫТО ЧЕРЕЗ JS
+       ===================================== */
 
     .mega-item.open > .mega-popup {
+
         display: block;
     }
 
 
-    /* Ссылки брендов */
+    /* =====================================
+       ССЫЛКИ ВНУТРИ
+       ===================================== */
 
     .mega-popup a {
+
         display: block;
 
         padding: 9px 10px;
@@ -208,19 +270,28 @@
 
 
     .mega-popup a:hover {
+
         background: #eee;
+
         color: #e53935;
     }
 
 
-    /* ВАЖНО:
-       hover вообще не используем на мобильном */
+    /* =====================================
+       НА MOBILE HOVER НЕ ИСПОЛЬЗУЕМ
+       ===================================== */
 
     .mega-item:hover > .mega-popup {
+
         display: none;
     }
 
+
+    /* Но открытый через JS остаётся открытым */
+
     .mega-item.open:hover > .mega-popup {
+
         display: block;
     }
+
 }
