@@ -2,7 +2,7 @@
   {
     "name": "Прозрачный силиконовый чехол",
     "price": 250,
-    "image": "img/products/cases/iphone-11/clear.jpg",
+    "image": "img/powerbank/1/1.webp",
     "description": "Прозрачный силиконовый чехол",
     "attributes": {
       "color": "Прозрачный",
@@ -18,7 +18,7 @@
   {
     "name": "Матовый силиконовый чехол",
     "price": 350,
-    "image": "img/products/cases/iphone-11/matte-black.jpg",
+    "image": "img/powerbank/2/1.webp",
     "description": "Матовый чехол",
     "attributes": {
       "color": "Черный",
@@ -34,7 +34,7 @@
   {
     "name": "Чехол MagSafe",
     "price": 490,
-    "image": "img/products/cases/iphone-11/magsafe.jpg",
+    "image": "img/powerbank/3/1.webp",
     "description": "Защитный чехол с поддержкой MagSafe",
     "attributes": {
       "color": "Прозрачный",
@@ -50,7 +50,7 @@
   {
     "name": "Противоударный чехол",
     "price": 590,
-    "image": "img/products/cases/iphone-11/shockproof.jpg",
+    "image": "img/powerbank/4/4.webp",
     "description": "Противоударный чехол с усиленными углами",
     "attributes": {
       "color": "Черный",
@@ -66,7 +66,7 @@
   {
     "name": "Кожаный чехол",
     "price": 850,
-    "image": "img/products/cases/iphone-11/leather-brown.jpg",
+    "image": "img/powerbank/5/5.webp",
     "description": "Кожаный чехол премиум-класса",
     "attributes": {
       "color": "Коричневый",
