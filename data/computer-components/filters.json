@@ -1,0 +1,42 @@
+{
+  "type": {
+    "label": "Тип мыши",
+    "type": "select"
+  },
+  "connectionType": {
+    "label": "Тип подключения",
+    "type": "select"
+  },
+  "color": {
+    "label": "Цвет",
+    "type": "select"
+  },
+  "material": {
+    "label": "Материал корпуса",
+    "type": "select"
+  },
+  "scrollWheel": {
+    "label": "Колёсико прокрутки",
+    "type": "boolean"
+  },
+  "USB-receiver": {
+    "label": "USB-приёмник",
+    "type": "boolean"
+  },
+  "ergonomicShape": {
+    "label": "Эргономичная форма",
+    "type": "boolean"
+  },
+  "additionalButtons": {
+    "label": "Дополнительные кнопки",
+    "type": "boolean"
+  },
+  "backlighting": {
+    "label": "Подсветка",
+    "type": "select"
+  },
+  "magneticLid": {
+    "label": "Магнитная крышка",
+    "type": "boolean"
+  }
+}

@@ -1,0 +1,178 @@
+[
+{
+  "name": "HOCO N48",
+  "price": 525,
+  "image": "img/charger/HOCO N48.jpg",
+  "description": "Сетевое зарядное устройство HOCO N48 мощностью 65 Вт с одним портом USB-C и поддержкой быстрой зарядки",
+  "attributes": {
+    "color": "Белый",
+    "material": "Огнестойкий PC-пластик",
+    "type": "Сетевое зарядное устройство",
+    "connectors": "USB-C",
+    "length": "1 м",
+    "electricCurrent": "3.0 А",
+    "power" : "65 Вт",
+    "fastCharging": "да",
+    "inputVoltage" : "AC 110–240 В",
+    "ports" : 3
+  }
+},
+  {
+    "name": "Baseus Super Si Quick Charger 30W",
+    "price": 360,
+    "image": "img/charger/Baseus Super Si Quick Charger 30W.jpg",
+    "description": "Компактное сетевое зарядное устройство Baseus Super Si мощностью 30 Вт с поддержкой быстрой зарядки",
+    "attributes": {
+      "color": "Белый",
+      "material": "Пластик",
+      "type": "Сетевое зарядное устройство",
+      "connectors": "USB-C",
+      "electricCurrent": "3.0 А",
+      "power" : "30 W",
+      "ports" : 1
+    }
+  },
+  {
+    "name": "Proove Silicone Power 40W",
+    "price": 350,
+    "image": "img/charger/Proove Silicone Power 40W.jpg",
+    "description": "Компактное сетевое зарядное устройство Proove мощностью 40 Вт с двумя портами Type-C и поддержкой быстрой одновременной зарядки",
+    "attributes": {
+      "color": "Чёрный",
+      "material": "Силикон",
+      "type": "Сетевое зарядное устройство",
+      "power" : "40 W",
+      "ports" : 2,
+      "connectors": "Type-C",
+      "fastCharging" : true,
+      "simultaneousCharging" :true
+    }
+  },
+  {
+    "name": "Proove Silicone Power 20W",
+    "price": 180,
+    "image": "img/charger/Proove Silicone Power 40W.jpg",
+    "description": "Компактное сетевое зарядное устройство Proove мощностью 20 Вт с разъёмом Type-C и поддержкой технологии Power Delivery",
+    "attributes": {
+      "color": "Чёрный",
+      "material": "Силикон",
+      "type": "Сетевое зарядное устройство",
+      "power" : "20 W",
+      "ports" : 1,
+      "connectors": "USB-C",
+      "fastCharging" : true
+    }
+  },
+  {
+    "name": "ACEFAST GaN 30W PD",
+    "price": 240,
+    "image": "img/charger/ACEFAST GaN 30W PD.jpg",
+    "description": "Компактное сетевое зарядное устройство ACEFAST мощностью 30 Вт с разъёмом USB-C, поддержкой Power Delivery и технологией GaN для быстрой и эффективной зарядки смартфонов, планшетов и ноутбуков",
+    "attributes": {
+      "color": "Чёрный",
+      "material": "Пластик",
+      "type": "Сетевое зарядное устройство",
+      "power" : "30 W",
+      "ports" : 1,
+      "connectors": "USB-C",
+      "fastCharging" : true,
+      "technology" : "GaN"
+    }
+  },
+  {
+    "name": "ACEFAST GaN 100W PD",
+    "price": 1100,
+    "image": "img/charger/ACEFAST GaN 100W PD.jpg",
+    "description": "Мощное сетевое зарядное устройство ACEFAST мощностью 100 Вт с технологией GaN, тремя портами USB-C и одним USB-A. Поддерживает быструю зарядку до четырёх устройств одновременно и подходит для смартфонов, планшетов и ноутбуков",
+    "attributes": {
+      "color": "Чёрный",
+      "material": "Пластик",
+      "type": "Сетевое зарядное устройство",
+      "power" : "100 W",
+      "ports" : 4,
+      "connectors": "3×USB-C, 1×USB-A",
+      "fastCharging" : true,
+      "technology" : "GaN",
+      "Power Delivery": true,
+      "plugType": "EU"
+    }
+  },
+  {
+    "name": "REMAX RP-U1106 GaN 140W",
+    "price": 1100,
+    "image": "img/charger/AREMAX RP-U1106 GaN 140W.jpg",
+    "description": "Мощное сетевое зарядное устройство REMAX GaN мощностью 140 Вт с тремя портами: двумя USB-C и одним USB-A. Поддерживает быструю зарядку нескольких устройств одновременно и оснащено защитой для безопасной зарядки",
+    "attributes": {
+      "color": "Белый",
+      "material": "Пластик",
+      "type": "Сетевое зарядное устройство",
+      "power" : "140 W",
+      "ports" : 3,
+      "connectors": "2×USB-C, 1×USB-A",
+      "fastCharging" : true,
+      "technology" : "GaN",
+      "Power Delivery": true,
+      "simultaneousCharging": "до 3 устройств",
+      "plugType": "EU"
+    }
+  },
+  {
+    "name": "REMAX RP-U100 DOFON 65W GaN",
+    "price": 600,
+    "image": "img/charger/REMAX RP-U100 DOFON 65W GaN.jpg",
+    "description": "Компактное сетевое зарядное устройство REMAX мощностью 65 Вт с технологией GaN, двумя портами USB-C и одним USB-A. Поддерживает быструю зарядку до трёх устройств одновременно и подходит для смартфонов, планшетов и других совместимых устройств",
+    "attributes": {
+      "color": "Белый",
+      "material": "Пластик",
+      "type": "Сетевое зарядное устройство",
+      "power" : "65 W",
+      "ports" : 3,
+      "connectors": "2×USB-C, 1×USB-A",
+      "fastCharging" : true,
+      "technology" : "GaN",
+      "Power Delivery": true,
+      "simultaneousCharging": "до 3 устройств",
+      "plugType": "EU"
+    }
+  },
+  {
+    "name": "ACEFAST GaN 30W Dual Port",
+    "price": 335,
+    "image": "img/charger/ACEFAST GaN 30W Dual Port.jpg",
+    "description": "Компактное ультратонкое сетевое зарядное устройство ACEFAST мощностью 30 Вт с портами USB-C и USB-A. Поддерживает Power Delivery и быструю зарядку смартфонов, планшетов и других совместимых устройств",
+    "attributes": {
+      "color": "Чёрный",
+      "material": "Пластик",
+      "type": "Сетевое зарядное устройство",
+      "power" : "30 W",
+      "ports" : 2,
+      "connectors": "USB-C, USB-A",
+      "fastCharging" : true,
+      "technology" : "GaN",
+      "Power Delivery": true,
+      "simultaneousCharging": "до 3 устройств",
+      "plugType" : "EU",
+      "feature" : "Ультратонкий корпус 16 мм"
+    }
+  },
+  {
+    "name": "ACEFAST GaN 65W Triple Port",
+    "price": 700,
+    "image": "img/charger/ACEFAST GaN 65W Triple Port.jpg",
+    "description": "Мощное сетевое зарядное устройство ACEFAST мощностью 65 Вт с двумя портами USB-C и одним USB-A. Поддерживает Power Delivery и быструю зарядку до трёх устройств одновременно, подходит для смартфонов, планшетов и ноутбуков",
+    "attributes": {
+      "color": "Чёрный",
+      "material": "Пластик",
+      "type": "Сетевое зарядное устройство",
+      "power" : "65 W",
+      "ports" : 3,
+      "connectors": "2×USB-C, 1×USB-A",
+      "fastCharging" : true,
+      "technology" : "GaN",
+      "Power Delivery": true,
+      "simultaneousCharging": "до 3 устройств",
+      "plugType" : "EU",
+      "feature" : "Ультратонкий корпус 16 мм"
+    }
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "power": {
+    "label": "Мощность",
+    "type": "select",
+    "unit": "Вт"
+  },
+  "ports": {
+    "label": "Количество портов",
+    "type": "select"
+  },
+  "connectors": {
+    "label": "Тип и комбинация портов",
+    "type": "select"
+  },
+  "fastCharging": {
+    "label": "Быстрая зарядка",
+    "type": "boolean"
+  },
+  "Power Delivery": {
+    "label": "Power Delivery (PD)",
+    "type": "boolean"
+  },
+  "technology": {
+    "label": "Технология GaN",
+    "type": "select"
+  },
+  "simultaneousCharging": {
+    "label": "Одновременная зарядка нескольких устройств",
+    "type": "select"
+  },
+  "plugType": {
+    "label": "Тип вилки",
+    "type": "select"
+  },
+  "color": {
+    "label": "Цвет",
+    "type": "select"
+  },
+  "material": {
+    "label": "Материал корпуса",
+    "type": "select"
+  }
+}

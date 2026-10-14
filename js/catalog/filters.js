@@ -1,4 +1,9 @@
-export function createFilters(products, container, onFilterChange) {
+export function createFilters(
+    products,
+    container,
+    onFilterChange,
+    filtersConfig = {}
+) {
 
     container.innerHTML = "";
 
@@ -14,53 +19,76 @@ export function createFilters(products, container, onFilterChange) {
             return;
         }
 
-        Object.entries(product.attributes).forEach(([key, value]) => {
+        Object.entries(product.attributes).forEach(
+            ([key, value]) => {
 
-            if (value === null || value === undefined) {
+                if (
+                    value === null ||
+                    value === undefined
+                ) {
+                    return;
+                }
+
+                if (!attributes[key]) {
+                    attributes[key] = new Set();
+                }
+
+                attributes[key].add(
+                    String(value)
+                );
+            }
+        );
+    });
+
+    Object.entries(attributes).forEach(
+        ([key, values]) => {
+
+            const config =
+                filtersConfig[key];
+
+            if (!config) {
                 return;
             }
 
-            if (!attributes[key]) {
-                attributes[key] = new Set();
+            const wrapper =
+                document.createElement("div");
+
+            wrapper.className = "mb-4";
+
+            const title =
+                document.createElement("h6");
+
+            title.textContent =
+                config.label || key;
+
+            wrapper.appendChild(title);
+
+            const uniqueValues =
+                [...values];
+
+            if (isBoolean(uniqueValues)) {
+
+                createBooleanFilter(
+                    wrapper,
+                    key,
+                    uniqueValues,
+                    onFilterChange
+                );
+
+            } else {
+
+                createSelectFilter(
+                    wrapper,
+                    key,
+                    uniqueValues,
+                    onFilterChange,
+                    config
+                );
             }
 
-            attributes[key].add(String(value));
-        });
-    });
-
-    Object.entries(attributes).forEach(([key, values]) => {
-
-        const wrapper = document.createElement("div");
-        wrapper.className = "mb-4";
-
-        const title = document.createElement("h6");
-        title.textContent = getAttributeLabel(key);
-
-        wrapper.appendChild(title);
-
-        const uniqueValues = [...values];
-
-        if (isBoolean(uniqueValues)) {
-
-            createBooleanFilter(
-                wrapper,
-                key,
-                uniqueValues,
-                onFilterChange
-            );
-
-        } else {
-
-            createSelectFilter(
-                wrapper,
-                key,
-                uniqueValues,
-                onFilterChange
-            );
+            container.appendChild(wrapper);
         }
-
-        container.appendChild(wrapper);
-    });
+    );
 }
 
 
@@ -68,16 +96,19 @@ function createSelectFilter(
     container,
     key,
     values,
-    onFilterChange
+    onFilterChange,
+    config = {}
 ) {
 
-    const select = document.createElement("select");
+    const select =
+        document.createElement("select");
 
     select.className = "form-select";
 
     select.dataset.filter = key;
 
-    const allOption = document.createElement("option");
+    const allOption =
+        document.createElement("option");
 
     allOption.value = "";
     allOption.textContent = "Все";
@@ -85,28 +116,41 @@ function createSelectFilter(
     select.appendChild(allOption);
 
     values.sort((a, b) =>
-        a.localeCompare(b, "ru", {
-            numeric: true
-        })
+        a.localeCompare(
+            b,
+            "ru",
+            {
+                numeric: true
+            }
+        )
     );
 
     values.forEach(value => {
 
-        const option = document.createElement("option");
+        const option =
+            document.createElement("option");
 
         option.value = value;
-        option.textContent = formatValue(value);
+
+        option.textContent =
+            formatValue(
+                value,
+                config
+            );
 
         select.appendChild(option);
     });
 
-    select.addEventListener("change", () => {
+    select.addEventListener(
+        "change",
+        () => {
 
-        onFilterChange(
-            key,
-            select.value
-        );
-    });
+            onFilterChange(
+                key,
+                select.value
+            );
+        }
+    );
 
     container.appendChild(select);
 }
@@ -119,13 +163,15 @@ function createBooleanFilter(
     onFilterChange
 ) {
 
-    const select = document.createElement("select");
+    const select =
+        document.createElement("select");
 
     select.className = "form-select";
 
     select.dataset.filter = key;
 
-    const allOption = document.createElement("option");
+    const allOption =
+        document.createElement("option");
 
     allOption.value = "";
     allOption.textContent = "Все";
@@ -134,7 +180,8 @@ function createBooleanFilter(
 
     values.forEach(value => {
 
-        const option = document.createElement("option");
+        const option =
+            document.createElement("option");
 
         option.value = value;
 
@@ -146,13 +193,16 @@ function createBooleanFilter(
         select.appendChild(option);
     });
 
-    select.addEventListener("change", () => {
+    select.addEventListener(
+        "change",
+        () => {
 
-        onFilterChange(
-            key,
-            select.value
-        );
-    });
+            onFilterChange(
+                key,
+                select.value
+            );
+        }
+    );
 
     container.appendChild(select);
 }
@@ -166,10 +216,14 @@ export function filterProducts(
     return products.filter(product => {
 
         if (!product.attributes) {
-            return Object.keys(activeFilters).length === 0;
+            return Object.keys(
+                activeFilters
+            ).length === 0;
         }
 
-        return Object.entries(activeFilters).every(
+        return Object.entries(
+            activeFilters
+        ).every(
             ([key, selectedValue]) => {
 
                 if (
@@ -201,32 +255,10 @@ function isBoolean(values) {
 }
 
 
-function getAttributeLabel(key) {
-
-    const labels = {
-        color: "Цвет",
-        material: "Материал",
-        type: "Тип",
-        cameraProtection: "Защита камеры",
-        screenProtection: "Защита экрана",
-        magsafe: "MagSafe",
-        wirelessCharging: "Беспроводная зарядка",
-        thickness: "Толщина"
-    };
-
-    return labels[key] || formatAttributeName(key);
-}
-
-
-function formatAttributeName(key) {
-
-    return key
-        .replace(/([A-Z])/g, " $1")
-        .replace(/^./, char => char.toUpperCase());
-}
-
-
-function formatValue(value) {
+function formatValue(
+    value,
+    config = {}
+) {
 
     if (value === "true") {
         return "Да";
@@ -234,6 +266,10 @@ function formatValue(value) {
 
     if (value === "false") {
         return "Нет";
+    }
+
+    if (config.unit) {
+        return `${value} ${config.unit}`;
     }
 
     return value;

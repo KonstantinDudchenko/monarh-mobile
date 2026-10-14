@@ -1,0 +1,46 @@
+{
+  "connectors": {
+    "label": "Разъёмы",
+    "type": "select"
+  },
+  "length": {
+    "label": "Длина кабеля",
+    "type": "select"
+  },
+  "power": {
+    "label": "Максимальная мощность",
+    "type": "select"
+  },
+  "electricCurrent": {
+    "label": "Максимальный ток",
+    "type": "select"
+  },
+  "fastCharging": {
+    "label": "Быстрая зарядка",
+    "type": "boolean"
+  },
+  "dataTransmission": {
+    "label": "Передача данных",
+    "type": "boolean"
+  },
+  "material": {
+    "label": "Материал оплётки",
+    "type": "select"
+  },
+  "construction": {
+    "label": "Конструкция кабеля",
+    "type": "select"
+  },
+  "anti-tangle": {
+    "label": "Защита от спутывания",
+    "type": "boolean"
+  },
+  "anti-banding": {
+    "label": "Защита от перегибов",
+    "type": "boolean"
+  },
+  "color": {
+    "label": "Цвет",
+    "type": "select"
+  }
+}

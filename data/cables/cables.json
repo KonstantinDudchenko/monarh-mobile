@@ -1,0 +1,89 @@
+[
+  {
+    "name": "HOCO X38",
+    "price": 70,
+    "image": "img/cables/HOCO X38.jpg",
+    "description": "Кабель HOCO X38 для зарядки и передачи данных с разъёмами USB-A и Type-C",
+    "attributes": {
+      "color": "Черный",
+      "material": "Алюминиевый сплав, нейлоновая оплётка",
+      "type": "Кабель для зарядки и передачи данных",
+      "connectors": "USB-A / Type-C",
+      "length": "0.25 м",
+      "electricCurrent": "3.0 А",
+      "fastCharging": "да",
+      "dataTransmission": "да"
+    }
+  },
+  {
+    "name": "HOCO X20",
+    "price": 180,
+    "image": "img/cables/HOCO X20.jpg",
+    "description": "Кабель HOCO X20 Type-C для быстрой зарядки, длиной 3 метра",
+    "attributes": {
+      "color": "Фиолетовый",
+      "material": "ПВХ",
+      "type": "Кабель для зарядки и передачи данных",
+      "connectors": "Type-C / Type-C",
+      "length": "3 м",
+      "electricCurrent": "3.0 А",
+      "fastCharging": "да",
+      "dataTransmission": "да"
+    }
+  },
+  {
+    "name": "HOCO X121",
+    "price": 180,
+    "image": "img/cables/HOCO X20.jpg",
+    "description": "Кабель HOCO X121 USB-C to USB-C с прочной витой оплёткой и поддержкой быстрой зарядки до 60 Вт",
+    "attributes": {
+      "color": "Чёрный",
+      "material": "Нейлоновая оплётка",
+      "type": "Кабель для зарядки и передачи данных",
+      "connectors": "USB-C / USB-C",
+      "length": "1.5 м",
+      "power" : "60 W",
+      "electricCurrent": "3.0 А",
+      "fastCharging": "да",
+      "dataTransmission": "да",
+      "construction" : "Twisted"
+    }
+  },
+  {
+    "name": "HOCO X86",
+    "price": 160,
+    "image": "img/cables/HOCO X86.jpg",
+    "description": "Кабель HOCO X86 USB-C to USB-C с силиконовой оплёткой, поддержкой быстрой зарядки до 60 Вт и передачи данных",
+    "attributes": {
+      "color": "Чёрный",
+      "material": "Силикон, алюминиевый сплав",
+      "type": "Кабель для зарядки и передачи данных",
+      "connectors": "USB-C / USB-C",
+      "length": "1 м",
+      "power" : "60 W",
+      "fastCharging": "да",
+      "dataTransmission": "да",
+      "construction" : "Twisted",
+      "anti-tangle" : true
+    }
+  },
+  {
+    "name": "HOCO X59",
+    "price": 160,
+    "image": "img/cables/HOCO X59.jpg",
+    "description": "Кабель HOCO X59 для зарядки и передачи данных с усиленной защитой от перегибов",
+    "attributes": {
+      "color": "Чёрный",
+      "material": "Нейлоновая оплётка",
+      "type": "Кабель для зарядки и передачи данных",
+      "connectors": "USB-A / Type-C",
+      "length": "1 м",
+      "electricCurrent": "3.0 А",
+      "power" : "60 W",
+      "fastCharging": "да",
+      "dataTransmission": "да",
+      "construction" : "Twisted",
+      "anti-banding" : true
+    }
+  }
+]

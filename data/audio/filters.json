@@ -1,0 +1,51 @@
+{
+  "type": {
+    "label": "Тип наушников",
+    "type": "select"
+  },
+  "color": {
+    "label": "Цвет",
+    "type": "select"
+  },
+  "material": {
+    "label": "Материал",
+    "type": "select"
+  },
+  "noiseCancellation": {
+    "label": "Активное шумоподавление",
+    "type": "boolean"
+  },
+  "microphone": {
+    "label": "Микрофон",
+    "type": "boolean"
+  },
+  "wirelessCharging": {
+    "label": "Беспроводная зарядка",
+    "type": "boolean"
+  },
+  "waterResistance": {
+    "label": "Влагозащита",
+    "type": "boolean"
+  },
+  "chargingPort": {
+    "label": "Разъём зарядки",
+    "type": "select"
+  },
+  "connectionType": {
+    "label": "Тип подключения",
+    "type": "select"
+  },
+  "batteryLife": {
+    "label": "Время автономной работы",
+    "type": "select"
+  },
+  "driverDiameter": {
+    "label": "Диаметр динамика",
+    "type": "select",
+    "unit": "мм"
+  },
+  "multipoint": {
+    "label": "Подключение к двум устройствам",
+    "type": "boolean"
+  }
+}

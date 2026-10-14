@@ -13,9 +13,9 @@ import { renderProducts }
 import { sortProducts }
     from "./sortProducts.js";
 
-import { renderCatalogTitle }
-    from "./catalogTitle.js";
-
+import {
+    renderCatalogTitle
+} from "./catalogTitle.js";
 
 // ======================================================
 // Состояние каталога

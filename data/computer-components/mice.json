@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Metoo E0",
+    "price": 270,
+    "image": "img/computer-components/mice/Metoo E0.jpg",
+    "description": "Беспроводная мышь Metoo E0 с подключением 2.4G и Bluetooth",
+    "attributes": {
+      "color": "Чёрный",
+      "type": "Беспроводная мышь",
+      "connectionType": "2.4G / Bluetooth",
+      "scrollWheel": true
+    }
+  },
+  {
+  "name": "HOCO GM29",
+  "price": 290,
+  "image": "img/computer-components/mice/HOCO GM29.jpg",
+  "description": "Беспроводная мышь HOCO GM29 с подключением 2.4G и Bluetooth, прозрачным дизайном и магнитной крышкой",
+  "attributes": {
+    "color": "Прозрачный",
+    "type": "Беспроводная мышь",
+    "connectionType": "2.4G / Bluetooth",
+    "scrollWheel": true,
+    "USB-receiver": true,
+    "magneticLid": true,
+    "ergonomicShape": true
+  }
+},
+  {
+    "name": "XSTRIKE XS-105",
+    "price": 290,
+    "image": "img/computer-components/mice/XSTRIKE XS-105.jpg",
+    "description": "Беспроводная мышь XSTRIKE XS-105 с двойным режимом подключения, регулируемым DPI и встроенным аккумулятором 400 мАч",
+    "attributes": {
+      "color": "Чёрный",
+      "type": "Беспроводная мышь",
+      "connectionType": "2.4G / Bluetooth",
+      "scrollWheel": true,
+      "USB-receiver": true,
+      "ergonomicShape": true
+    }
+  },
+  {
+    "name": "JEDEL GM660",
+    "price": 280,
+    "image": "img/computer-components/mice/JEDEL GM660.jpg",
+    "description": "Игровая мышь JEDEL GM660 с точным управлением, эргономичным дизайном и дополнительными кнопками",
+    "attributes": {
+      "color": "Чёрный",
+      "type": "Игровая мышь",
+      "material": "Пластик",
+      "connectionType": "Проводное",
+      "scrollWheel": true,
+      "additionalButtons": true
+    }
+  },
+  {
+    "name": "BOROFONE BG10",
+    "price": 200,
+    "image": "img/computer-components/mice/BOROFONE BG10.jpg",
+    "description": "Проводная игровая мышь BOROFONE BG10 с LED-подсветкой",
+    "attributes": {
+      "color": "Чёрный",
+      "type": "Игровая мышь",
+      "material": "Пластик",
+      "connectionType": "USB-A",
+      "backlighting" : "LED",
+      "scrollWheel": true
+    }
+  }
+
+]

@@ -1,0 +1,46 @@
+{
+  "brand": {
+    "label": "Производитель",
+    "type": "select"
+  },
+  "number of cameras": {
+    "label": "Количество камер",
+    "type": "select"
+  },
+  "front camera resolution": {
+    "label": "Разрешение передней камеры",
+    "type": "select"
+  },
+  "viewing angle": {
+    "label": "Угол обзора",
+    "type": "select"
+  },
+  "connectivity": {
+    "label": "Подключение к смартфону",
+    "type": "select"
+  },
+  "display": {
+    "label": "Экран",
+    "type": "select"
+  },
+  "memory card support": {
+    "label": "Поддержка карт памяти",
+    "type": "select"
+  },
+  "G-sensor": {
+    "label": "G-сенсор",
+    "type": "select"
+  },
+  "loop recording": {
+    "label": "Циклическая запись",
+    "type": "select"
+  },
+  "video locking": {
+    "label": "Защита важных записей",
+    "type": "select"
+  },
+  "color": {
+    "label": "Цвет",
+    "type": "select"
+  }
+}

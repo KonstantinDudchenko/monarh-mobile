@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Защитный чехол на iphone 17 pro max",
+    "price": 375,
+    "image": "img/cases/iphone/17-pro/space-prozrachniy.jpg",
+    "description": "Селиконовый чехол премиум-класса",
+    "attributes": {
+      "color": "Прозрачный",
+      "material": "Селикон",
+      "type": "Накладка",
+      "cameraProtection": false,
+      "screenProtection": true,
+      "magsafe": true,
+      "wirelessCharging": true,
+      "thickness": 2,
+      "brand": "SPACE"
+    }
+  },
+  {
+    "name": "Селиконовый чехол на iphone 17 pro max",
+    "price": 280,
+    "image": "img/cases/iphone/17-pro/photo_2026-10-06_09-59-38.jpg",
+    "description": "Селиконовый чехол",
+    "attributes": {
+      "color": "Темно зеленый",
+      "material": "Силикон",
+      "type": "Накладка",
+      "cameraProtection": false,
+      "screenProtection": true,
+      "magsafe": false,
+      "wirelessCharging": true,
+      "thickness": 2,
+      "brand": ""
+    }
+  },
+  {
+    "name": "Чехол на iphone 17 pro",
+    "price": 540,
+    "image": "img/cases/iphone/17-pro/photo_2026-10-06_10-02-07.jpg",
+    "description": "Защитный чехол для iPhone 17 Pro с поддержкой MagSafe и усиленной защитой камеры",
+    "attributes": {
+      "color": "Оранжевый",
+      "material": "TPU",
+      "type": "Накладка",
+      "cameraProtection": true,
+      "screenProtection": true,
+      "magsafe": true,
+      "wirelessCharging": true,
+      "thickness": 2,
+      "brand": "kajsa"
+    }
+  },
+  {
+    "name": "Чехол Fibra Aeris MagSafe для iPhone 17 Pro",
+    "price": 275,
+    "image": "img/cases/iphone/17-pro/fibra.jpg",
+    "description": "Премиальный прозрачный чехол Fibra Aeris с поддержкой MagSafe и усиленной защитой камер",
+    "attributes": {
+      "color": "Прозрачный",
+      "material": "TPU",
+      "type": "Накладка",
+      "cameraProtection": true,
+      "screenProtection": true,
+      "magsafe": true,
+      "wirelessCharging": true,
+      "thickness": 2,
+      "brand": "FIBRA"
+    }
+  },
+  {
+    "name": "Кевларовый чехол",
+    "price": 400,
+    "image": "img/cases/iphone/17-pro/kevlar.jpg",
+    "description": "Кевларовый чехол с карбоновым дизайном",
+    "attributes": {
+      "color": "Чёрный",
+      "material": "Кевлар",
+      "type": "Накладка",
+      "cameraProtection": true,
+      "screenProtection": true,
+      "magsafe": true,
+      "wirelessCharging": true,
+      "thickness": 2,
+      "brand": "KEVLAR"
+    }
+  }
+]

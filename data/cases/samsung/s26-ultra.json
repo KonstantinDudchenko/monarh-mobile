@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Прозрачный чехол Rock",
+    "price": 350,
+    "image": "img/cases/samsung/s26-ultra/ROCK.jpg",
+    "description": "Прозрачный защитный чехол Rock для Samsung Galaxy S26 Ultra",
+    "attributes": {
+      "color": "Прозрачный",
+      "material": "TPU",
+      "type": "Накладка",
+      "cameraProtection": true,
+      "screenProtection": true,
+      "magsafe": true,
+      "wirelessCharging": true,
+      "thickness": 2,
+      "brand": "ROCK"
+    }
+  },
+  {
+    "name": "Силиконовый чехол",
+    "price": 225,
+    "image": "img/cases/samsung/s26-ultra/photo_2026-10-07_10-11-47.jpg",
+    "description": "Силиконовый чехол с мягким покрытием для Samsung Galaxy S25 Ultra",
+    "attributes": {
+      "color": "Сиреневый",
+      "material": "Силикон",
+      "type": "Накладка",
+      "cameraProtection": true,
+      "screenProtection": true,
+      "magsafe": false,
+      "wirelessCharging": true,
+      "thickness": 2,
+      "brand": ""
+    }
+  },
+  {
+    "name": "Прозрачный чехол Space",
+    "price": 350,
+    "image": "img/cases/samsung/s26-ultra/SPACE.jpg",
+    "description": "Прозрачный противоударный чехол с магнитной поддержкой для Samsung Galaxy S25 Ultra",
+    "attributes": {
+      "color": "Прозрачный",
+      "material": "TPU",
+      "type": "Противоударный",
+      "cameraProtection": true,
+      "screenProtection": true,
+      "magsafe": false,
+      "wirelessCharging": true,
+      "thickness": 2,
+      "brand": "SPACE"
+    }
+  },
+  {
+    "name": "Карбоновый чехол Fibra",
+    "price": 425,
+    "image": "img/cases/samsung/s26-ultra/FIBRA.jpg",
+    "description": "Лёгкий и прочный карбоновый чехол с магнитной поддержкой для Samsung Galaxy S26 Ultra",
+    "attributes": {
+      "color": "Чёрный",
+      "material": "Карбон",
+      "type": "Накладка",
+      "cameraProtection": false,
+      "screenProtection": true,
+      "magsafe": true,
+      "wirelessCharging": true,
+      "thickness": 2,
+      "brand": "FIBRA"
+    }
+  },
+  {
+    "name": "Защитный чехол Rock",
+    "price": 375,
+    "image": "img/cases/samsung/s26-ultra/rock-black.jpg",
+    "description": "Защитный чехол Rock с магнитной поддержкой для Samsung Galaxy S26",
+    "attributes": {
+      "color": "Дымчатый",
+      "material": "TPU",
+      "type": "Накладка",
+      "cameraProtection": true,
+      "screenProtection": true,
+      "magsafe": true,
+      "wirelessCharging": true,
+      "thickness": 2,
+      "brand": "ROCK"
+    }
+  }
+]

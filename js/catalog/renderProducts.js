@@ -192,18 +192,10 @@ function createProductCard(
                             <div class="product-main-attributes mb-3">
 
                                 ${mainAttributes
-                                    .map(
-                                        ([key, value]) =>
-                                            renderAttribute(
-                                                key,
-                                                value,
-                                                filters
-                                            )
-                                    )
-                                    .join("")}
+                                    .map(([key, value]) =>
+                                            renderAttribute(key, value, filters)).join("")}
 
                             </div>
-
                         `
                         : ""
                 }
@@ -278,22 +270,6 @@ function createProductCard(
                             `
                             : ""
                     }
-
-
-                    <!-- ================================== -->
-                    <!-- Подробнее -->
-                    <!-- ================================== -->
-
-                    <button
-                        class="btn btn-warning w-100"
-                        type="button"
-                    >
-
-                        Подробнее
-
-                    </button>
-
-
                 </div>
 
             </div>

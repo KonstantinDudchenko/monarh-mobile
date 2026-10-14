@@ -1,0 +1,110 @@
+[
+  {
+    "name": "W&O X9+ PRO 2 Smart Watch",
+    "price": 1650,
+    "image": "img/smartWatch/W&O X9+ PRO 2 Smart Watch.jpg",
+    "description": "Умные часы W&O X9+ PRO 2 с AMOLED-дисплеем и современным дизайном. Поддерживают подключение по Bluetooth, оснащены функциями мониторинга активности и поддержкой NFC.",
+    "attributes": {
+      "color": "Серебристый",
+      "material": "Металл, пластик",
+      "type": "Умные часы",
+      "model": "X9+ PRO 2",
+      "display": "AMOLED",
+      "connection": "Bluetooth",
+      "compatibility": "Android, iOS",
+      "NFC": true,
+      "functions": "Мониторинг активности, уведомления",
+      "strap": "Силиконовый",
+      "strapColor": "Серый",
+      "brand": "W&O"
+    }
+  },
+  {
+    "name": "XO XO-J13 Women's Business Watch",
+    "price": 1100,
+    "image": "img/smartWatch/XO XO-J13 Women's Business Watch.jpg",
+    "description": "Женские умные часы XO XO-J13 с круглым AMOLED-дисплеем, элегантным дизайном и корпусом из цинкового сплава. Поддерживают Bluetooth-звонки, голосового помощника и обладают защитой от воды IP68. Подходят для повседневного использования и стильного образа.",
+    "attributes": {
+      "color": "Серебристый, белый",
+      "material": "Цинковый сплав, закалённое стекло",
+      "display": "AMOLED",
+      "body-shape": "Круглая",
+      "connectivity": "Bluetooth",
+      "calls": "Да",
+      "voice assistant": "Да",
+      "water resistance": "IP68",
+      "strap": "Silicone",
+      "strapColor": "White",
+      "packageContents": "Smartwatch, packaging",
+      "brand": "XO"
+    }
+  },
+  {
+    "name": "W&O Little Star X10 Mini 3 Smart Watch",
+    "price": 1750,
+    "image": "img/smartWatch/W&O Little Star X10 Mini 3 Smart Watch.jpg",
+    "description": "Умные часы W&O X10 Mini 3 с сенсорным цветным дисплеем диагональю 1,71 дюйма и разрешением 240 × 296 пикселей. Оснащены алюминиевым корпусом, силиконовым ремешком и аккумулятором ёмкостью 200 мА·ч. Поддерживают Bluetooth 5.2, совместимы со смартфонами на Android и iOS. Предусмотрены уведомления о звонках и сообщениях, мониторинг сна и активности, шагомер, спортивные режимы, будильник, таймер, секундомер, прогноз погоды и дистанционное управление камерой смартфона. Имеют защиту от пыли и влаги IP67. Для расширенных функций используется приложение WearFit Pro.",
+    "attributes": {
+      "color": "Злолотистый, белый",
+      "material": "Алюминиевый сплав, Закалённое стекло",
+      "display": "AMOLED",
+      "body-shape": "Круглая",
+      "connectivity": "Bluetooth",
+      "calls": "Да",
+      "voice assistant": "Да",
+      "water resistance": "IP68",
+      "strap": "Silicone",
+      "strapColor": "White",
+      "packageContents": "Часы, ремешок, зарядное устройство, упаковка; состав зависит от поставки",
+      "brand": "W&O",
+      "charging" :"Беспроводная, магнитная",
+      "dustAndMoistureProtection" : "IP67"
+    }
+  },
+  {
+    "name": "XO-H140 Kids Call Watch 4G",
+    "price": 1100,
+    "image": "img/smartWatch/XO-H140 Kids Call Watch 4G.jpg",
+    "description": "Детские умные часы XO-H140 с поддержкой сети 4G, сенсорным экраном и возможностью совершать голосовые вызовы. Поддерживают установку Nano-SIM-карты, позволяя оставаться на связи с ребёнком. Оснащены функцией определения местоположения, встроенной камерой и удобным силиконовым ремешком. Подходят для повседневного использования и связи с родителями.",
+    "attributes": {
+      "brand": "XO",
+      "type": "Детские умные часы",
+      "caseColor": "Чёрный",
+      "strapColor": "Чёрный",
+      "caseMaterial": "Пластик",
+      "strapMaterial": "Силикон",
+      "display": "Цветной, сенсорный",
+      "caseMhape": "Прямоугольная с закруглёнными углами",
+      "mobileMetwork": "4G",
+      "SIMcard": "Nano-SIM",
+      "calls": "Голосовые вызовы через мобильную сеть",
+      "geolocation": "Определение местоположения",
+      "builtInCamera": true,
+      "additionalFeatures": "Сенсорное управление, связь с родителями, отслеживание местоположения",
+      "packageContents": "Умные часы, упаковка, зарядное устройство",
+      "manufacturer": "XO"
+    }
+  },
+  {
+    "name": "XO-M10 Ultra Smart Sport Watch",
+    "price": 1500,
+    "image": "img/smartWatch/XO-M10 Ultra Smart Sport Watch.jpg",
+    "description": "Умные часы XO-M10 Ultra с большим цветным сенсорным дисплеем 2,04 дюйма и стильным прямоугольным корпусом с металлическим ободком. Оснащены спортивными функциями для повседневной активности, поддержкой голосовых вызовов и функцией защиты от брызг. Удобный мягкий ремешок обеспечивает комфортную посадку на запястье. Современный дизайн и функциональность делают часы подходящими для повседневного использования, работы и занятий спортом.",
+    "attributes": {
+      "brand": "XO",
+      "type": "Умные спортивные часы",
+      "caseColor": "Серебристый",
+      "strapColor": "Чёрный",
+      "caseMaterial": "Светло-серый",
+      "housing material" : "Металл и пластик",
+      "strapMaterial": "Силикон",
+      "display": "Цветной, сенсорный",
+      "display diagonal" : "2,04 дюйма",
+      "caseMhape": "Прямоугольная с закруглёнными углами",
+      "calls": "Голосовые вызовы через мобильную сеть",
+      "additionalFeatures": "Режимы для занятий спортом и отслеживания активности",
+      "packageContents": "Умные часы, ремешок, упаковка; зарядное устройство",
+      "manufacturer": "XO"
+    }
+  }
+]

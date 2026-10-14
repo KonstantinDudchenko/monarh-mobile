@@ -1,0 +1,27 @@
+{
+  "power": {
+    "label": "Мощность",
+    "type": "select",
+    "unit": "Вт"
+  },
+  "ports": {
+    "label": "Количество портов",
+    "type": "select"
+  },
+  "portType": {
+    "label": "Тип портов",
+    "type": "select"
+  },
+  "technology": {
+    "label": "Технология",
+    "type": "select"
+  },
+  "gan": {
+    "label": "GaN",
+    "type": "boolean"
+  },
+  "fastCharging": {
+    "label": "Быстрая зарядка",
+    "type": "boolean"
+  }
+}

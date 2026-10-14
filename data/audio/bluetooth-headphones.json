@@ -1,0 +1,171 @@
+[
+  {
+    "name": "AirPods 4",
+    "price": 2550,
+    "image": "img/audio/bluetooth-headphones/air-pods-4.jpg",
+    "description": "Оригинальные беспроводные наушники Apple AirPods 4 без активного шумоподавления",
+    "attributes": {
+      "color": "Белый",
+      "material": "Пластик",
+      "type": "Беспроводные наушники",
+      "noiseCancellation": false,
+      "microphone": true,
+      "wirelessCharging": true,
+      "chargingPort": "USB-C",
+      "waterResistance": true
+    }
+  },
+  {
+    "name": "AirPods 4 с шумоподавлением",
+    "price": 1500,
+    "image": "img/audio/bluetooth-headphones/air-pods-4-copy.jpg",
+    "description": "Копия Apple AirPods 4 с активным шумоподавлением",
+    "attributes": {
+      "color": "Белый",
+      "material": "Пластик",
+      "type": "Беспроводные наушники",
+      "noiseCancellation": true,
+      "microphone": true,
+      "wirelessCharging": true,
+      "chargingPort": "USB-C",
+      "waterResistance": false
+    }
+  },
+  {
+    "name": "Hoco EW88",
+    "price": 595,
+    "image": "img/audio/bluetooth-headphones/Hoco-EW88.jpg",
+    "description": "Беспроводные TWS-наушники Hoco EW88 с цветным LCD-экраном и активным шумоподавлением",
+    "attributes": {
+      "color": "Белый",
+      "material": "Пластик",
+      "type": "Беспроводные TWS-наушники",
+      "noiseCancellation": true,
+      "microphone": true,
+      "wirelessCharging": false,
+      "chargingPort": "USB-C",
+      "batteryLife": "до 20 часов"
+    }
+  },
+  {
+    "name": "Hoco EA3",
+    "price": 675,
+    "image": "img/audio/bluetooth-headphones/Hoco-EA3.jpg",
+    "description": "Беспроводные наушники Hoco EA3 с открытой конструкцией и прозрачным зарядным кейсом с LED-дисплеем",
+    "attributes": {
+      "color": "Белый",
+      "material": "Пластик",
+      "type": "Беспроводные Open-Ear наушники",
+      "noiseCancellation": false,
+      "microphone": true,
+      "wirelessCharging": false,
+      "chargingPort": "USB-C",
+      "batteryLife": "до 10 часов"
+    }
+  },
+  {
+    "name": "Hoco EQ8",
+    "price": 590,
+    "image": "img/audio/bluetooth-headphones/Hoco-EQ8.jpg",
+    "description": "Беспроводные TWS-наушники Hoco EQ8 с заушными креплениями и LED-дисплеем",
+    "attributes": {
+      "color": "Белый",
+      "material": "Пластик",
+      "type": "Беспроводные TWS-наушники",
+      "noiseCancellation": false,
+      "microphone": true,
+      "wirelessCharging": false,
+      "chargingPort": "USB-C",
+      "batteryLife": "до 7 часов"
+    }
+  },
+  {
+    "name": "Hoco W36",
+    "price": 325,
+    "image": "img/audio/bluetooth-headphones/Hoco W36.jpg",
+    "description": "Проводные накладные наушники Hoco W36 с микрофоном и дизайном в виде кошачьих ушек",
+    "attributes": {
+      "color": "Розовый",
+      "material": "Пластик",
+      "type": "Накладные проводные наушники",
+      "noiseCancellation": false,
+      "microphone": true,
+      "wirelessCharging": false,
+      "connectionType": "3.5 мм",
+      "volume control": true
+    }
+  },
+  {
+    "name": "Hoco W48",
+    "price": 480,
+    "image": "img/audio/bluetooth-headphones/Hoco W48.jpg",
+    "description": "Беспроводные накладные наушники Hoco W48 с подсветкой и длительным временем работы",
+    "attributes": {
+      "color": "Белый",
+      "material": "Пластик",
+      "type": "Беспроводные накладные наушники",
+      "noiseCancellation": false,
+      "microphone": true,
+      "wirelessCharging": false,
+      "chargingPort": "USB-C",
+      "batteryLife": "до 46 часов"
+    }
+  },
+  {
+    "name": "Hoco W35 MAX",
+    "price": 600,
+    "image": "img/audio/bluetooth-headphones/Hoco W35 MAX.jpg",
+    "description": "Полноразмерные беспроводные наушники Hoco W35 MAX с Hi-Fi звучанием, Bluetooth 5.3 и длительным временем работы до 90 часов",
+    "attributes": {
+      "color": "Серебристый / чёрный",
+      "material": "Пластик + экокожа",
+      "type": "Полноразмерные беспроводные наушники",
+      "noiseCancellation": false,
+      "microphone": true,
+      "wirelessCharging": false,
+      "chargingPort": "USB-C",
+      "batteryLife": "до 90 часов",
+      "connectionType": "bluetooth 5.3, AUX 3,5 мм, TF-карта",
+      "driverDiameter": "40 мм",
+      "batteryСapacity": "800 мАч",
+      "chargingTime": "около 2х часов"
+    }
+  },
+  {
+    "name": "Sony WH-CH520",
+    "price": 500,
+    "image": "img/audio/bluetooth-headphones/Sony WH-CH520.jpg",
+    "description": "Беспроводные накладные наушники Sony WH-CH520 с качественным звучанием, поддержкой Multipoint и длительным временем работы до 50 часов",
+    "attributes": {
+      "color": "Желтый",
+      "material": "Пластик",
+      "type": "Беспроводные накладные наушники",
+      "noiseCancellation": false,
+      "microphone": true,
+      "wirelessCharging": false,
+      "chargingPort": "USB-C",
+      "batteryLife": "до 50 часов",
+      "connectionType": "bluetooth 5.2",
+      "multipoint": true,
+      "driverDiameter": "30 мм"
+    }
+  },
+  {
+    "name": "Remax RB-700HB",
+    "price": 500,
+    "image": "img/audio/bluetooth-headphones/Remax RB-700HB.jpg",
+    "description": "Беспроводные накладные наушники Remax RB-700HB с Bluetooth 5.0, складной конструкцией, ультратонким дизайном и временем работы до 10 часов",
+    "attributes": {
+      "color": "Чёрный",
+      "material": "Пластик",
+      "type": "Беспроводные накладные наушники",
+      "noiseCancellation": false,
+      "microphone": true,
+      "wirelessCharging": false,
+      "chargingPort": "MicroUSB",
+      "batteryLife": "до 10 часов",
+      "connectionType": "bluetooth 5.0",
+      "collapsible design" : true
+    }
+  }
+]

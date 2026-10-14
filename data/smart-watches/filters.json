@@ -1,0 +1,74 @@
+{
+  "brand": {
+    "label": "Бренд",
+    "type": "select"
+  },
+  "type": {
+    "label": "Тип часов",
+    "type": "select"
+  },
+  "color": {
+    "label": "Цвет корпуса",
+    "type": "select"
+  },
+  "caseColor": {
+    "label": "Цвет корпуса",
+    "type": "select"
+  },
+  "strapColor": {
+    "label": "Цвет ремешка",
+    "type": "select"
+  },
+  "caseMaterial": {
+    "label": "Материал корпуса",
+    "type": "select"
+  },
+  "strapMaterial": {
+    "label": "Материал ремешка",
+    "type": "select"
+  },
+  "display": {
+    "label": "Тип дисплея",
+    "type": "select"
+  },
+  "body-shape": {
+    "label": "Форма корпуса",
+    "type": "select"
+  },
+  "caseMhape": {
+    "label": "Форма корпуса",
+    "type": "select"
+  },
+  "connectivity": {
+    "label": "Подключение",
+    "type": "select"
+  },
+  "mobileMetwork": {
+    "label": "Мобильная сеть",
+    "type": "select"
+  },
+  "calls": {
+    "label": "Звонки",
+    "type": "select"
+  },
+  "NFC": {
+    "label": "NFC",
+    "type": "boolean"
+  },
+  "geolocation": {
+    "label": "Определение местоположения",
+    "type": "select"
+  },
+  "builtInCamera": {
+    "label": "Встроенная камера",
+    "type": "boolean"
+  },
+  "water resistance": {
+    "label": "Влагозащита",
+    "type": "select"
+  },
+  "dustAndMoistureProtection": {
+    "label": "Защита от пыли и влаги",
+    "type": "select"
+  }
+}

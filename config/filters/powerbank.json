@@ -1,49 +1,45 @@
-[
-  {
-    "key": "capacity",
+{
+  "capacity": {
     "label": "Ёмкость",
     "type": "select",
     "unit": "мАч"
   },
-  {
-    "key": "outputPower",
+  "outputPower": {
     "label": "Выходная мощность",
     "type": "select",
     "unit": "Вт"
   },
-  {
-    "key": "ports",
+  "inputPower": {
+    "label": "Входная мощность",
+    "type": "select",
+    "unit": "Вт"
+  },
+  "ports": {
     "label": "Разъёмы",
     "type": "select"
   },
-  {
-    "key": "outputPorts",
+  "outputPorts": {
     "label": "Количество портов",
     "type": "select"
   },
-  {
-    "key": "fastCharging",
+  "fastCharging": {
     "label": "Быстрая зарядка",
     "type": "boolean"
   },
-  {
-    "key": "wirelessCharging",
+  "wirelessCharging": {
     "label": "Беспроводная зарядка",
     "type": "boolean"
   },
-  {
-    "key": "magsafe",
+  "magsafe": {
     "label": "MagSafe",
     "type": "boolean"
   },
-  {
-    "key": "display",
+  "display": {
     "label": "Дисплей",
     "type": "boolean"
   },
-  {
-    "key": "color",
+  "color": {
     "label": "Цвет",
     "type": "select"
   }
-]
+}
