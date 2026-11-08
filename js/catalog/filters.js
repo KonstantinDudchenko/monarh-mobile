@@ -5,7 +5,9 @@ export function createFilters(
     filtersConfig = {}
 ) {
 
-    container.innerHTML = "";
+    container.innerHTML = `
+        <h5 class="filters-title p-4">Фильтры товаров</h5>
+    `;
 
     if (!products.length) {
         return;

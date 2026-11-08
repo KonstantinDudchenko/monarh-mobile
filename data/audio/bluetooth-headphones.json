@@ -127,7 +127,7 @@
       "batteryLife": "до 90 часов",
       "connectionType": "bluetooth 5.3, AUX 3,5 мм, TF-карта",
       "driverDiameter": "40 мм",
-      "batteryСapacity": "800 мАч",
+      "batteryCapacity": "800 мАч",
       "chargingTime": "около 2х часов"
     }
   },
@@ -165,7 +165,7 @@
       "chargingPort": "MicroUSB",
       "batteryLife": "до 10 часов",
       "connectionType": "bluetooth 5.0",
-      "collapsible design" : true
+      "collapsibleDesign" : true
     }
   }
 ]

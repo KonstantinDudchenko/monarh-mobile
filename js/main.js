@@ -1,35 +1,35 @@
-document.addEventListener("DOMContentLoaded", async () => {
+document.addEventListener("DOMContentLoaded", async () => {   // Ждём полной загрузки DOM, затем запускаем async-колбэк
 
-    const headerContainer =
+    const headerContainer =                                    // Ищем контейнер, в который будет вставлен header
         document.getElementById("header-container");
 
-    if (!headerContainer) {
-        return;
+    if (!headerContainer) {                                    // Если контейнера нет на странице —
+        return;                                                //   ничего не делаем и выходим
     }
 
     try {
 
-        const response =
+        const response =                                       // Запрашиваем HTML-файл шапки
             await fetch("header.html");
 
-        if (!response.ok) {
-            throw new Error(
+        if (!response.ok) {                                    // Если сервер вернул не 2xx —
+            throw new Error(                                   //   кидаем ошибку, чтобы попасть в catch
                 "Не удалось загрузить header"
             );
         }
 
-        headerContainer.innerHTML =
+        headerContainer.innerHTML =                            // Вставляем полученный HTML в контейнер
             await response.text();
 
         // Инициализация меню после загрузки header
-        initMegaMenu();
+        initMegaMenu();                                        // Навешиваем обработчики на пункты мега-меню
 
         // Инициализация ссылок каталога
-        initCatalogLinks();
+        initCatalogLinks();                                    // Навешиваем обработчики на ссылки каталога
 
     } catch (error) {
 
-        console.error(
+        console.error(                                         // Логируем ошибку загрузки шапки
             "Ошибка загрузки header:",
             error
         );
@@ -42,52 +42,52 @@ document.addEventListener("DOMContentLoaded", async () => {
    MEGA MENU
    ========================================= */
 
-function initMegaMenu() {
+function initMegaMenu() {                                      // Инициализация поведения мега-меню на мобильных
 
-    const megaItems =
+    const megaItems =                                          // Находим все пункты мега-меню
         document.querySelectorAll(".mega-item");
 
-    megaItems.forEach(item => {
+    megaItems.forEach(item => {                                // Проходим по каждому пункту
 
-        const link =
+        const link =                                           // Ссылка верхнего уровня этого пункта (только прямая, :scope)
             item.querySelector(":scope > .mega-link");
 
-        const popup =
+        const popup =                                          // Выпадающее подменю этого пункта (только прямое)
             item.querySelector(":scope > .mega-popup");
 
         // Если у пункта нет вложенного меню,
         // обработчик не нужен
-        if (!link || !popup) {
+        if (!link || !popup) {                                 // Пропускаем пункты без ссылки или без подменю
             return;
         }
 
-        link.addEventListener("click", event => {
+        link.addEventListener("click", event => {              // Клик по ссылке пункта
 
             // На компьютере работает CSS :hover
-            if (window.innerWidth > 991.98) {
-                return;
+            if (window.innerWidth > 991.98) {                  // На десктопе ничего не перехватываем —
+                return;                                        //   пусть работает hover через CSS
             }
 
             // На мобильном не переходим по #
-            event.preventDefault();
+            event.preventDefault();                            // Отменяем переход по ссылке на мобильном
 
             // Не даём событию открыть/закрыть
             // родительские пункты
-            event.stopPropagation();
+            event.stopPropagation();                           // Останавливаем всплытие, чтобы не сработали обработчики выше
 
-            const parent =
+            const parent =                                     // Родительский контейнер списка пунктов
                 item.parentElement;
 
             // Закрываем соседние пункты
             parent
-                .querySelectorAll(
+                .querySelectorAll(                             // Ищем уже открытые пункты-соседи
                     ":scope > .mega-item.open"
                 )
                 .forEach(openItem => {
 
-                    if (openItem !== item) {
+                    if (openItem !== item) {                   // Все открытые, кроме текущего —
 
-                        openItem.classList.remove(
+                        openItem.classList.remove(             //   закрываем (убираем класс open)
                             "open"
                         );
 
@@ -96,7 +96,7 @@ function initMegaMenu() {
                 });
 
             // Переключаем текущий пункт
-            item.classList.toggle("open");
+            item.classList.toggle("open");                     // Открываем/закрываем текущий пункт
 
         });
 
@@ -109,46 +109,46 @@ function initMegaMenu() {
    ССЫЛКИ КАТАЛОГА
    ========================================= */
 
-function initCatalogLinks() {
+function initCatalogLinks() {                                  // Инициализация ссылок каталога (добавление параметров в URL)
 
     document
-        .querySelectorAll(".catalog-link")
+        .querySelectorAll(".catalog-link")                     // Находим все ссылки каталога
         .forEach(link => {
 
-            link.addEventListener("click", () => {
+            link.addEventListener("click", () => {             // По клику на ссылку (до перехода)
 
-                const json =
+                const json =                                   // Берём из data-атрибута имя json-конфига
                     link.dataset.json;
 
-                const filters =
+                const filters =                                // Берём из data-атрибута конфиг фильтров
                     link.dataset.filterConfig;
 
-                if (!json) {
-                    return;
+                if (!json) {                                   // Если json не задан —
+                    return;                                    //   ничего не меняем в ссылке
                 }
 
-                const url =
+                const url =                                    // Собираем абсолютный URL из href ссылки
                     new URL(
                         link.href,
                         window.location.href
                     );
 
-                url.searchParams.set(
+                url.searchParams.set(                          // Добавляем параметр ?json=...
                     "json",
                     json
                 );
 
-                if (filters) {
+                if (filters) {                                 // Если есть конфиг фильтров —
 
-                    url.searchParams.set(
+                    url.searchParams.set(                      //   добавляем параметр ?filters=...
                         "filters",
                         filters
                     );
 
                 }
 
-                link.href =
-                    url.toString();
+                link.href =                                    // Записываем обновлённый URL обратно в ссылку —
+                    url.toString();                            //   браузер перейдёт уже с нужными параметрами
 
             });
 

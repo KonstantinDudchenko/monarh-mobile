@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Каталог | Monarh Mobile</title>
+
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+    >
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/catalog.css">
+    <link rel="stylesheet" href="css/product-card.css">
+
+</head>
+
+<body>
+
+<div id="header-container"></div>
+
+<main class="container py-5">
+
+    <h1 class="mb-4">Избранное</h1>
+
+    <div class="row g-4" id="favoritesGrid"></div>
+
+</main>
+
+<!-- Модальное окно товара -->
+<div class="modal fade" id="productModal" tabindex="-1">
+
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalProductTitle">
+                    Товар
+                </h5>
+
+                <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Закрыть"
+                ></button>
+            </div>
+
+            <div class="modal-body">
+                <div class="row g-4">
+
+                    <!-- Большая фотография -->
+                    <div class="col-md-6">
+                        <div class="ratio ratio-1x1 bg-light rounded">
+                            <img
+                                    id="modalProductImage"
+                                    src=""
+                                    class="object-fit-contain p-3"
+                                    alt=""
+                            >
+                        </div>
+                    </div>
+
+                    <!-- Информация -->
+                    <div class="col-md-6">
+
+                        <h4 id="modalProductPrice" class="fw-bold mb-3"></h4>
+
+                        <p id="modalProductDescription" class="text-muted"></p>
+
+                        <h6 class="fw-bold mb-3">
+                            Характеристики
+                        </h6>
+
+                        <div id="modalProductAttributes"></div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Просмотр фото на весь экран -->
+<div class="modal fade" id="imageModal" tabindex="-1">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content bg-dark">
+
+            <div class="modal-header border-0">
+                <button
+                        type="button"
+                        class="btn-close btn-close-white ms-auto"
+                        data-bs-dismiss="modal"
+                        aria-label="Закрыть"
+                ></button>
+            </div>
+
+            <div class="modal-body d-flex align-items-center justify-content-center p-2">
+                <img
+                        id="fullscreenImage"
+                        src=""
+                        class="img-fluid"
+                        alt="Фото товара"
+                >
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="js/main.js"></script>
+<script src="js/catalog/megaMenu.js"></script>
+
+<script type="module" src="js/catalog/favorites.js"></script>
+</body>
+</html>

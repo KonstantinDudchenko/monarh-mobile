@@ -1,267 +1,102 @@
-/* ========================================
-   PRODUCT CARD
-======================================== */
-
 .product-card {
-    border: 1px solid #e7e7e7;
-    border-radius: 14px;
+    border: 1px solid #eee;
+    border-radius: 12px;
     overflow: hidden;
-    background: #fff;
-
-    transition:
-        transform 0.2s ease,
-        box-shadow 0.2s ease;
+    transition: 0.3s;
 }
 
 .product-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    transform: translateY(-4px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
 }
 
+.product-card .card-title {
+    font-size: 16px;
+    font-weight: 500;
+    min-height: 48px;
+}
 
-/* ========================================
-   IMAGE
-======================================== */
+.favorite-btn {
+    width: 44px;
+    flex-shrink: 0;
+    font-size: 20px;
+}
 
-.product-image-wrapper {
-    width: 100%;
-    aspect-ratio: 1 / 1;
+/* Кнопка Подробнее */
+.product-card .btn-outline-dark {
+    transition: all 0.3s ease;
+}
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.product-card .btn-outline-dark:hover {
+    background: linear-gradient(135deg, #ffc107, #ff8500);
+    border-color: #ff9800;
+    color: #fff;
+}
 
-    background: #f8f8f8;
+/* Эффект нажатия */
+.product-card .btn-outline-dark:active {
+    background: linear-gradient(135deg, #e6a900, #e87500);
+    border-color: #e87500;
+    color: #fff;
+}
 
+/* Модальное окно товара */
+#productModal .modal-content {
+    border: none;
+    border-radius: 16px;
     overflow: hidden;
 }
 
-.product-image {
+#productModal .modal-header {
+    border-bottom: 1px solid #eee;
+}
+
+#productModal .modal-title {
+    font-weight: 600;
+}
+
+#modalProductImage {
     width: 100%;
     height: 100%;
-
-    object-fit: contain;
-
-    padding: 18px;
-
-    transition: transform 0.25s ease;
 }
 
-.product-card:hover .product-image {
-    transform: scale(1.04);
+#modalProductAttributes {
+    font-size: 14px;
 }
 
-
-/* ========================================
-   BODY
-======================================== */
-
-.product-card .card-body {
-    padding: 18px;
+/* Фото в окне товара */
+#modalProductImage {
+    cursor: zoom-in;
 }
 
-
-/* ========================================
-   TITLE
-======================================== */
-
-.product-title {
-    margin: 0 0 7px;
-
-    font-size: 17px;
-    font-weight: 600;
-
-    line-height: 1.35;
-
-    color: #222;
-}
-
-
-/* ========================================
-   DESCRIPTION
-======================================== */
-
-.product-description {
-    margin: 0 0 14px;
-
-    color: #777;
-
-    font-size: 13px;
-    line-height: 1.4;
-
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-
+/* Полноэкранное изображение */
+#imageModal .modal-body {
     overflow: hidden;
 }
 
-
-/* ========================================
-   MAIN ATTRIBUTES
-======================================== */
-
-.product-main-attributes {
-    margin-top: 4px;
-    margin-bottom: 14px;
+#fullscreenImage {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
-.product-main-attribute {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* Стили сердечка */
 
-    gap: 20px;
-
-    padding: 5px 0;
-
-    font-size: 13px;
+.favorite-btn {
+    min-width: 44px;
+    transition: all 0.2s ease;
 }
 
-.product-main-attribute-name {
-    color: #888;
+.favorite-btn i {
+    font-size: 18px;
 }
 
-.product-main-attribute-value {
-    color: #333;
-
-    font-weight: 500;
-
-    text-align: right;
+.favorite-btn[aria-pressed="true"] {
+    background-color: #dc3545;
+    color: #fff;
+    border-color: #dc3545;
 }
 
-
-/* ========================================
-   PRICE
-======================================== */
-
-.product-price {
-    margin-top: auto;
-    margin-bottom: 5px;
-
-    font-size: 22px;
-    font-weight: 700;
-
-    color: #222;
-}
-
-
-/* ========================================
-   DETAILS
-======================================== */
-
-.product-details {
-    margin-top: 8px;
-
-    border-top: 1px solid #ededed;
-}
-
-
-/* ========================================
-   DETAILS BUTTON
-======================================== */
-
-.product-details-toggle {
-    width: 100%;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    padding: 13px 0 9px;
-
-    border: none;
-    background: transparent;
-
-    color: #555;
-
-    font-size: 13px;
-    font-weight: 500;
-
-    cursor: pointer;
-
-    text-align: left;
-}
-
-.product-details-toggle:hover {
-    color: #111;
-}
-
-
-/* ========================================
-   ARROW
-======================================== */
-
-.product-details-arrow {
-    display: inline-flex;
-
-    font-size: 17px;
-
-    transition:
-        transform 0.2s ease;
-}
-
-.product-details-toggle[aria-expanded="true"]
-.product-details-arrow {
-    transform: rotate(180deg);
-}
-
-
-/* ========================================
-   ALL ATTRIBUTES
-======================================== */
-
-.product-attributes {
-    padding: 2px 0 5px;
-}
-
-.product-attribute {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-
-    gap: 20px;
-
-    padding: 7px 0;
-
-    border-bottom: 1px solid #f1f1f1;
-
-    font-size: 13px;
-}
-
-.product-attribute:last-child {
-    border-bottom: none;
-}
-
-.product-attribute-name {
-    color: #888;
-}
-
-.product-attribute-value {
-    color: #333;
-
-    font-weight: 500;
-
-    text-align: right;
-}
-
-
-/* ========================================
-   MOBILE
-======================================== */
-
-@media (max-width: 576px) {
-
-    .product-card .card-body {
-        padding: 15px;
-    }
-
-    .product-title {
-        font-size: 16px;
-    }
-
-    .product-price {
-        font-size: 20px;
-    }
-
+.favorite-btn:hover {
+    transform: scale(1.08);
 }
