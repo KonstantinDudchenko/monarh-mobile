@@ -21,6 +21,8 @@
   <link rel="stylesheet" href="css/contacts.css">
   <link rel="stylesheet" href="css/catalog.css">
   <link rel="stylesheet" href="css/product-card.css">
+  <link rel="stylesheet" href="css/category-strip.css">
+  <link rel="stylesheet" href="css/footer.css">
 
 
 
@@ -39,54 +41,79 @@
 
 
   <!--Главная-->
-  <section class="hero">
 
-    <div class="hero__container">
+  <img src="img/hero/2.png" class="img-fluid mt-5" alt="...">
 
-      <!-- Левая часть -->
-      <div class="hero__content">
+  <!-- Популярные категории-->
+  <section class="my-4 mx-2">
 
-        <div class="hero__eyebrow">
-          ТЕХНОЛОГИИ И СТИЛЬ
-        </div>
-
-        <h1 class="hero__title">
-          Аксессуары<br>
-          для тех,<br>
-          кто в движении
-        </h1>
-
-        <p class="hero__description">
-          Премиальные аксессуары для смартфонов,
-          планшетов и гаджетов. Качество, которому доверяют.
-        </p>
-
+    <div>
+      <div class="new-products__label">
+        Популярные категории
       </div>
-
-
-      <!-- Правая часть -->
-      <div class="hero__image">
-
-        <!--
-            ЗДЕСЬ МОЖНО ПОСТАВИТЬ ЛЮБУЮ КАРТИНКУ
-
-            Например:
-
-            <img
-                src="images/hero.jpg"
-                alt="Аксессуары Monarh Mobile"
-            >
-        -->
-
-        <img class="rounded"
-                src="img/main2.png"
-                alt="Аксессуары для смартфонов"
-        >
-
-      </div>
-
     </div>
 
+    <div class="category-strip">
+
+      <a href="catalog.html?json=data/cases/iphone/17-pro.json
+                                                &filters=data/cases/filters.json
+                                                &title=Чехлы%20для%20iPhone%2017-pro"
+         class="category-item">
+        <img src="img/productStrip/чехол.png" alt="Чехлы">
+        <div class="category-info">
+          <h6>Чехлы</h6>
+          <small>Защита и стиль</small>
+          <span>→</span>
+        </div>
+      </a>
+
+      <a href="catalog.html?json=data/charger/charger.json
+                                                &filters=data/charger/filters.json
+                                                &title=Сетевые%20зарядные%20устройства"
+         class="category-item">
+        <img src="img/productStrip/зарядное.png" alt="Зарядные устройства">
+        <div class="category-info">
+          <h6>Зарядные устройства</h6>
+          <small>Быстрая зарядка</small>
+          <span>→</span>
+        </div>
+      </a>
+
+      <a href="catalog.html?json=data/cables/cables.json
+                                    &filters=data/cables/filters.json
+                                    &title=Кабели"
+         class="category-item">
+        <img src="img/productStrip/кабель.png" alt="Кабели">
+        <div class="category-info">
+          <h6>Кабели</h6>
+          <small>Надёжные и долговечные</small>
+          <span>→</span>
+        </div>
+      </a>
+
+      <a href="catalog.html?json=data/audio/bluetooth-headphones.json
+                                                &filters=data/audio/filters.json
+                                                &title=Наушники%20"
+         class="category-item">
+        <img src="img/productStrip/наушники.png" alt="Наушники">
+        <div class="category-info">
+          <h6>Наушники</h6>
+          <small>Чистый звук и комфорт</small>
+          <span>→</span>
+        </div>
+      </a>
+
+      <a href="index.html#popular-products"
+         class="category-item">
+        <img src="img/productStrip/коробка.png" alt="Подарки">
+        <div class="category-info">
+          <h6>Подарки</h6>
+          <small>Лучшие идеи</small>
+          <span>→</span>
+        </div>
+      </a>
+
+    </div>
   </section>
 
   <!--Новинки-->
@@ -370,6 +397,96 @@
     </div>
   </section>
 
+  <!--footer-->
+  <footer class="site-footer">
+    <div class="container py-5">
+      <div class="row g-4">
+
+        <!-- О магазине -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <a href="index.html" class="footer-logo">
+            MONARH <span>MOBILE</span>
+          </a>
+
+          <p class="footer-description mt-3">
+            Технологии и стиль.
+            Аксессуары для тех, кто в движении.
+          </p>
+
+
+        </div>
+
+        <!-- Покупателям -->
+        <div class="col-6 col-md-6 col-lg-3">
+          <h5 class="footer-title">Покупателям</h5>
+
+          <ul class="footer-links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="favorites.html">Избранное</a></li>
+            <li><a href="index.html#new-products">Новинки</a></li>
+            <li><a href="index.html#popular-products">Популярное</a></li>
+            <li><a href="index.html#contacts">Контакты</a></li>
+          </ul>
+        </div>
+
+        <!-- Наши магазины -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5 class="footer-title">Наши магазины</h5>
+
+          <div class="footer-address">
+            <strong>Т/К Monarh</strong>
+            <p>Ленина, 7/1, бутик 6</p>
+            <small>Пн–Сб: 09:30–19:00</small>
+            <small>Вс: 11:00–17:00</small>
+          </div>
+
+          <div class="footer-address">
+            <strong>Клинцовский рынок</strong>
+            <p>Ленина, 16, бутик 15</p>
+            <small>Пн–Сб: 09:00–20:00</small>
+            <small>Вс: 11:00–17:00</small>
+          </div>
+
+          <div class="footer-address">
+            <strong>Т/Ц Timp</strong>
+            <p>Покровская (25 Октября), 104</p>
+            <small>Пн–Сб: 09:00–20:00</small>
+            <small>Вс: 11:00–17:00</small>
+          </div>
+        </div>
+
+        <!-- Дополнительный магазин -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5 class="footer-title">Также нас найти</h5>
+
+          <div class="footer-socials mt-3">
+            <a href="https://t.me/your_channel" target="_blank">
+              <i class="bi bi-telegram"></i>
+              Telegram
+            </a>
+
+            <a href="https://www.instagram.com/monarhmobile" target="_blank">
+              <i class="bi bi-instagram"></i>
+              Instagram
+            </a>
+          </div>
+
+
+        </div>
+
+      </div>
+
+      <hr class="footer-divider">
+
+      <div class="footer-bottom">
+        <p>© 2026 Monarh Mobile. Все права защищены.</p>
+        <!--<a href="privacy.html">Политика конфиденциальности</a>-->
+      </div>
+    </div>
+  </footer>
+
+
 </main>
 
 <!-- Модальное окно товара -->
@@ -463,6 +580,7 @@
 <script src="js/main.js"></script>
 <script type="module" src="js/newProducts.js"></script>
 <script type="module" src="js/popularProducts.js"></script>
+<script src="js/loadFooter.js"></script>
 
 </body>
 </html>

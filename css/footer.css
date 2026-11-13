@@ -1,0 +1,170 @@
+
+.site-footer {
+    background: #111;
+    color: #fff;
+    margin-top: 60px;
+}
+
+.footer-logo {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.footer-logo span {
+    color: #ff8c00;
+}
+
+.footer-description {
+    color: #aaa;
+    font-size: 14px;
+    line-height: 1.7;
+    max-width: 250px;
+}
+
+.footer-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.footer-title::after {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 3px;
+    background: #ff8c00;
+    margin-top: 10px;
+}
+
+.footer-socials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.footer-socials a {
+    color: #ff8c00;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-socials a:hover {
+    color: #fff;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ff8c00;
+}
+
+.footer-address {
+    margin-bottom: 20px;
+}
+
+.footer-address strong {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.footer-address p {
+    color: #aaa;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.footer-address small {
+    display: block;
+    color: #888;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+.footer-contact-link {
+    color: #ff8c00;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer-contact-link:hover {
+    color: #fff;
+}
+
+.footer-divider {
+    border-color: #444;
+    margin: 35px 0 20px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer-bottom p,
+.footer-bottom a {
+    color: #888;
+    font-size: 12px;
+    margin: 0;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    color: #ff8c00;
+}
+
+.footer-socials i {
+    font-size: 24px;
+    color: #ff8c00;
+    margin-right: 8px;
+}
+
+.footer-socials {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-socials a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* Смартфоны */
+@media (max-width: 767px) {
+    .site-footer {
+        margin-top: 35px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
