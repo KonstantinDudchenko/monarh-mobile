@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Monarh Mobile — аксессуары для смартфонов, планшетов и гаджетов">
+  <title>Monarh Mobile</title>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="img/logo-removebg-preview.png">
+  <link rel="apple-touch-icon" href="img/logo-removebg-preview.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!--<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/new-products.css">
+  <link rel="stylesheet" href="css/popular-products.css">
+  <link rel="stylesheet" href="css/contacts.css">
+  <link rel="stylesheet" href="css/catalog.css">
+  <link rel="stylesheet" href="css/product-card.css">
+  <link rel="stylesheet" href="css/category-strip.css">
+  <link rel="stylesheet" href="css/footer.css">-->
+  <!--<link rel="stylesheet" href="css/header.css">-->
+
+
+
+
+</head>
+
+<body>
+
+<!--<div id="header-container"></div>-->
+
+<!-- Навигация -->
+
+<header class="header ">
+
+    <nav class="navbar md:navbar-expand bg-1">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarDrawer" aria-controls="navbarDrawer" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" aria-hidden="true"></span>
+            </button>
+            <dialog class="drawer drawer-end" tabindex="-1" id="navbarDrawer" aria-labelledby="navbarDrawerLabel">
+                <div class="drawer-header">
+                    <h5 class="drawer-title" id="navbarDrawerLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+                </div>
+                <div class="drawer-body mb-2 md:mb-0">
+                    <ul class="nav navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">index3</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <button class="btn-solid theme-secondary" type="button" data-bs-toggle="menu" aria-expanded="false">
+                                Submenus
+                            </button>
+                            <div class="menu">
+                                <div class="submenu">
+                                    <button class="menu-item" type="button">File</button>
+                                    <div class="menu">
+                                        <a class="menu-item" href="#">New</a>
+                                        <a class="menu-item" href="#">Open</a>
+                                        <a class="menu-item" href="#">Save</a>
+                                    </div>
+                                </div>
+                                <div class="submenu">
+                                    <button class="menu-item" type="button">Edit</button>
+                                    <div class="menu">
+                                        <a class="menu-item" href="#">Cut</a>
+                                        <a class="menu-item" href="#">Copy</a>
+                                        <a class="menu-item" href="#">Paste</a>
+                                    </div>
+                                </div>
+                                <div class="submenu">
+                                    <button class="menu-item" type="button">View</button>
+                                    <div class="menu">
+                                        <a class="menu-item" href="#">Zoom In</a>
+                                        <a class="menu-item" href="#">Zoom Out</a>
+                                    </div>
+                                </div>
+                                <hr class="menu-divider">
+                                <a class="menu-item" href="#">Preferences</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <button class="btn-solid theme-secondary" type="button" data-bs-toggle="menu" aria-expanded="false">
+                                Multi-level menu
+                            </button>
+                            <div class="menu">
+                                <a class="menu-item" href="#">Level 1 action</a>
+                                <div class="submenu">
+                                    <button class="menu-item" type="button">Level 1 submenu</button>
+                                    <div class="menu">
+                                        <a class="menu-item" href="#">Level 2 action</a>
+                                        <div class="submenu">
+                                            <button class="menu-item" type="button">Level 2 submenu</button>
+                                            <div class="menu">
+                                                <a class="menu-item" href="#">Level 3 action A</a>
+                                                <a class="menu-item" href="#">Level 3 action B</a>
+                                            </div>
+                                        </div>
+                                        <a class="menu-item" href="#">Another level 2</a>
+                                    </div>
+                                </div>
+                                <a class="menu-item" href="#">Another level 1</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+
+                            <button class="btn-solid theme-secondary" type="button" data-bs-toggle="menu" aria-expanded="false">
+                                Multi-level menu
+                            </button>
+                            <div class="menu">
+
+
+                                <div class="submenu">
+                                    <button class="menu-item" type="button">Чехлы и защита</button>
+                                    <div class="menu">
+                                        <div class="submenu">
+                                            <button class="menu-item" type="button">Чехлы для телефонов</button>
+                                            <div class="menu">
+                                                <div class="submenu">
+                                                    <button class="menu-item" type="button">iPhone</button>
+                                                    <div class="menu show position-static"
+                                                         style="--bs-menu-max-height: 250px; --bs-menu-overflow-y: auto;">
+
+                                                        <a class="menu-item" href="catalog.html?json=data/iphone/iphone4.json&title=iPhone%204">
+                                                            iPhone 4
+                                                        </a>
+
+                                                        <a class="menu-item" href="catalog.html?json=data/iphone/iphone5.json&title=iPhone%205">
+                                                            iPhone 5
+                                                        </a>
+
+                                                        <a class="menu-item" href="catalog.html?json=data/iphone/iphone6.json&title=iPhone%206">
+                                                            iPhone 6
+                                                        </a>
+
+                                                        <a class="menu-item" href="catalog.html?json=data/iphone/iphone7.json&title=iPhone%207">
+                                                            iPhone 7
+                                                        </a>
+
+                                                        <a class="menu-item" href="catalog.html?json=data/iphone/iphone8.json&title=iPhone%208">
+                                                            iPhone 8
+                                                        </a>
+
+                                                        <a class="menu-item" href="catalog.html?json=data/iphone/iphone11.json&title=iPhone%2011">
+                                                            iPhone 11
+                                                        </a>
+
+                                                        <a class="menu-item" href="catalog.html?json=data/iphone/iphone12.json&title=iPhone%2012">
+                                                            iPhone 12
+                                                        </a>
+
+                                                        <a class="menu-item" href="catalog.html?json=data/iphone/iphone13.json&title=iPhone%2013">
+                                                            iPhone 13
+                                                        </a>
+
+                                                        <a class="menu-item" href="catalog.html?json=data/iphone/iphone14.json&title=iPhone%2014">
+                                                            iPhone 14
+                                                        </a>
+
+                                                        <a class="menu-item" href="catalog.html?json=data/iphone/iphone15.json&title=iPhone%2015">
+                                                            iPhone 15
+                                                        </a>
+
+                                                        <a class="menu-item" href="catalog.html?json=data/iphone/iphone16.json&title=iPhone%2016">
+                                                            iPhone 16
+                                                        </a>
+
+                                                        <a class="menu-item" href="catalog.html?json=data/iphone/iphone17.json&title=iPhone%2017">
+                                                            iPhone 17
+                                                        </a>
+
+                                                        <a class="menu-item" href="catalog.html?json=data/iphone/iphone18.json&title=iPhone%2018">
+                                                            iPhone 18
+                                                        </a>
+
+                                                        <a class="menu-item" href="catalog.html?json=data/iphone/iphonex.json&title=iPhone%20X">
+                                                            iPhone X
+                                                        </a>
+
+                                                        <a class="menu-item" href="catalog.html?json=data/iphone/iphonexr.json&title=iPhone%20XR">
+                                                            iPhone XR
+                                                        </a>
+
+                                                        <a class="menu-item" href="catalog.html?json=data/iphone/iphonexs.json&title=iPhone%20XS">
+                                                            iPhone XS
+                                                        </a>
+
+                                                    </div>
+                                                </div>
+                                                <div class="submenu">
+                                                    <button class="menu-item" type="button">Samsung</button>
+                                                    <div class="menu">
+                                                        <a class="menu-item" href="#">Galaxy S</a>
+                                                        <a class="menu-item" href="#">Galaxy Fold</a>
+                                                        <a class="menu-item" href="#">Galaxy Note</a>
+                                                        <a class="menu-item" href="#">Galaxy A</a>
+                                                        <a class="menu-item" href="#">Galaxy M</a>
+                                                    </div>
+                                                </div>
+                                                <div class="submenu">
+                                                    <button class="menu-item" type="button">Redmi</button>
+                                                    <div class="menu">
+                                                        <a class="menu-item" href="#">Redmi</a>
+                                                        <a class="menu-item" href="#">Redmi Note</a>
+                                                    </div>
+                                                </div>
+                                                <div class="submenu">
+                                                    <button class="menu-item" type="button">Poco</button>
+                                                    <div class="menu">
+                                                        <a class="menu-item" href="#">F</a>
+                                                        <a class="menu-item" href="#">M</a>
+                                                        <a class="menu-item" href="#">X</a>
+                                                    </div>
+                                                </div>
+                                                <div class="submenu">
+                                                    <button class="menu-item" type="button">Xiaomi</button>
+                                                </div>
+                                                <div class="submenu">
+                                                    <button class="menu-item" type="button">Google</button>
+                                                </div>
+                                                <div class="submenu">
+                                                    <button class="menu-item" type="button">Realme</button>
+                                                </div>
+                                                <div class="submenu">
+                                                    <button class="menu-item" type="button">Meizu</button>
+                                                </div>
+                                                <div class="submenu">
+                                                    <button class="menu-item" type="button">Lenovo</button>
+                                                </div>
+                                                <div class="submenu">
+                                                    <button class="menu-item" type="button">OPPO</button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="submenu">
+                                            <button class="menu-item" type="button">Защитные стёкла для телефонов</button>
+                                            <div class="menu">
+                                                <a class="menu-item" href="#">Level 3 action A</a>
+                                                <a class="menu-item" href="#">Level 3 action B</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="submenu">
+                                            <button class="menu-item" type="button">Чехлы для планшетов</button>
+                                            <div class="menu">
+                                                <a class="menu-item" href="#">Level 3 action A</a>
+                                                <a class="menu-item" href="#">Level 3 action B</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="submenu">
+                                            <button class="menu-item" type="button">Стёкла для камеры телефона</button>
+                                            <div class="menu">
+                                                <a class="menu-item" href="#">Level 3 action A</a>
+                                                <a class="menu-item" href="#">Level 3 action B</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="submenu">
+                                            <button class="menu-item" type="button">Защитные стёкла для планшетов</button>
+                                            <div class="menu">
+                                                <a class="menu-item" href="#">Level 3 action A</a>
+                                                <a class="menu-item" href="#">Level 3 action B</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="submenu">
+                                            <button class="menu-item" type="button">Защитные плёнки для телефонов</button>
+                                            <div class="menu">
+                                                <a class="menu-item" href="#">Level 3 action A</a>
+                                                <a class="menu-item" href="#">Level 3 action B</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="submenu">
+                                            <button class="menu-item" type="button">Защитные плёнки для планшетов</button>
+                                            <div class="menu">
+                                                <a class="menu-item" href="#">Level 3 action A</a>
+                                                <a class="menu-item" href="#">Level 3 action B</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="submenu">
+                                            <button class="menu-item" type="button">Чехлы для AirPods</button>
+                                            <div class="menu">
+                                                <a class="menu-item" href="#">Level 3 action A</a>
+                                                <a class="menu-item" href="#">Level 3 action B</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="submenu">
+                                            <button class="menu-item" type="button">Наклейки для смартфона</button>
+                                            <div class="menu">
+                                                <a class="menu-item" href="#">Level 3 action A</a>
+                                                <a class="menu-item" href="#">Level 3 action B</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="submenu">
+                                            <button class="menu-item" type="button">Гель для стёкол</button>
+                                            <div class="menu">
+                                                <a class="menu-item" href="#">Level 3 action A</a>
+                                                <a class="menu-item" href="#">Level 3 action B</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="submenu">
+                                            <button class="menu-item" type="button">Чехлы для AirTag</button>
+                                            <div class="menu">
+                                                <a class="menu-item" href="#">Level 3 action A</a>
+                                                <a class="menu-item" href="#">Level 3 action B</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="submenu">
+                                    <button class="menu-item" type="button">Зарядка и питание</button>
+                                    <div class="menu">
+                                        <a class="menu-item" href="#">Зарядные устройства с PD (быстрая зарядка)</a>
+                                        <a class="menu-item" href="#">Power Bank (внешние аккумуляторы)</a>
+                                        <a class="menu-item" href="#">Зарядки с кабелем USB-C (наборы)</a>
+                                        <a class="menu-item" href="#">Блоки питания 5–24 В (ТВ, модем, роутер)</a>
+                                        <a class="menu-item" href="#">Зарядные устройства с USB</a>
+                                        <a class="menu-item" href="#">Зарядки для ноутбуков</a>
+                                        <a class="menu-item" href="#">Беспроводные зарядки</a>
+                                        <a class="menu-item" href="#">Аккумуляторы без корпуса</a>
+                                        <a class="menu-item" href="#">Беспроводные зарядки-держатели</a>
+                                        <a class="menu-item" href="#">Зарядки с кабелем USB-A (наборы)</a>
+                                        <a class="menu-item" href="#">Зарядки с дисплеем (вольт, ампер, ватт)</a>
+                                        <a class="menu-item" href="#">Европереходники (адаптеры для розетки)</a>
+                                        <a class="menu-item" href="#">Сетевые удлинители</a>
+                                        <a class="menu-item" href="#">Аккумуляторы для планшетов</a>
+                                        <a class="menu-item" href="#">Универсальные зарядки</a>
+                                        <a class="menu-item" href="#">Аккумуляторы для электронных книг</a>
+                                        <a class="menu-item" href="#">Аккумуляторы для ноутбуков</a>
+                                        <a class="menu-item" href="#">Инверторы 12 В → 220 В</a>
+                                    </div>
+                                </div>
+
+
+                                <div class="submenu">
+                                    <button class="menu-item" type="button">Батарейки</button>
+                                    <div class="menu">
+                                        <a class="menu-item" href="#">Батарейки AA (пальчиковые)</a>
+                                        <a class="menu-item" href="#">Батарейки AAA (мизинчиковые)</a>
+                                        <a class="menu-item" href="#">Батарейки AAAA (мини-мизинчиковые)</a>
+                                        <a class="menu-item" href="#">Батарейки C (средние, LR14)</a>
+                                        <a class="menu-item" href="#">Батарейки D (большие, LR20; для газовых колонок)</a>
+                                        <a class="menu-item" href="#">Батарейки «Крона» 9 В</a>
+                                        <a class="menu-item" href="#">Батарейки-таблетки CR2032</a>
+                                        <a class="menu-item" href="#">Батарейки-таблетки CR2025</a>
+                                        <a class="menu-item" href="#">Батарейки-таблетки CR2016</a>
+                                        <a class="menu-item" href="#">Батарейки-таблетки CR1632</a>
+                                        <a class="menu-item" href="#">Батарейки-таблетки CR1620</a>
+                                        <a class="menu-item" href="#">Батарейки-таблетки CR1616</a>
+                                        <a class="menu-item" href="#">Батарейки-таблетки CR1220 и CR1225</a>
+                                        <a class="menu-item" href="#">Батарейки-таблетки CR2450</a>
+                                        <a class="menu-item" href="#">Батарейки-таблетки CR2430</a>
+                                        <a class="menu-item" href="#">Батарейки-таблетки CR2354 и CR2330 (Tesla)</a>
+                                        <a class="menu-item" href="#">Литиевые батарейки CR123A (для фотоаппаратов и датчиков)</a>
+                                        <a class="menu-item" href="#">Часовые батарейки AG13 (LR44, SR44, V13GA)</a>
+                                        <a class="menu-item" href="#">Часовые батарейки AG3 (LR41, SR41, V392)</a>
+                                        <a class="menu-item" href="#">Часовые батарейки AG10 (LR1130, LR54, V10GA)</a>
+                                        <a class="menu-item" href="#">Часовые батарейки AG4 (LR626, SR66, V377)</a>
+                                        <a class="menu-item" href="#">Часовые батарейки AG1 (LR621, SR60, V364)</a>
+                                        <a class="menu-item" href="#">Часовые батарейки AG6 (LR921, SR69, V371)</a>
+                                        <a class="menu-item" href="#">Часовые батарейки AG0 (LR521, для микронаушников)</a>
+                                        <a class="menu-item" href="#">Батарейки 12 В A23 (для пультов и сигнализаций)</a>
+                                        <a class="menu-item" href="#">Батарейки 12 В A27 (для пультов и сигнализаций)</a>
+                                        <a class="menu-item" href="#">Батарейки для слуховых аппаратов</a>
+                                        <a class="menu-item" href="#">Аккумуляторы 18650 и 14500</a>
+                                        <a class="menu-item" href="#">Зарядные устройства для батареек и аккумуляторов</a>
+                                    </div>
+                                </div>
+
+
+                                <div class="submenu">
+                                    <button class="menu-item" type="button">Кабели и переходники</button>
+                                    <div class="menu">
+                                        <a class="menu-item" href="#">Кабели Type-C</a>
+                                        <a class="menu-item" href="#">Кабели Type-C — Type-C</a>
+                                        <a class="menu-item" href="#">Кабели PD 100–240 Вт</a>
+                                        <a class="menu-item" href="#">Кабели Type-C to Lightning</a>
+                                        <a class="menu-item" href="#">Кабели Lightning (для iPhone и iPad)</a>
+                                        <a class="menu-item" href="#">Кабели Micro USB</a>
+                                        <a class="menu-item" href="#">Кабели Mini USB</a>
+                                        <a class="menu-item" href="#">Кабели для устаревших устройств (iPhone 4, Samsung Tab, Nokia)</a>
+                                        <a class="menu-item" href="#">Магнитные кабели и магнитные насадки</a>
+                                        <a class="menu-item" href="#">Удлинители USB и Type-C</a>
+                                        <a class="menu-item" href="#">Кабели AUX 3,5 мм (в том числе Type-C и Lightning — AUX)</a>
+                                        <a class="menu-item" href="#">Переходники и адаптеры для кабелей</a>
+                                        <a class="menu-item" href="#">Блоки питания 5–24 В (ТВ, модем, роутер, танометр)</a>
+                                        <a class="menu-item" href="#">Кабели питания с USB на разъёмы 2,5 / 3,5 / 4 / 5,5 мм и на 9–12 В (для модемов и роутеров)</a>
+                                        <a class="menu-item" href="#">OTG-переходники</a>
+                                        <a class="menu-item" href="#">Кабели HDMI</a>
+                                        <a class="menu-item" href="#">Хабы и конвертеры Type-C</a>
+                                        <a class="menu-item" href="#">USB-хабы</a>
+                                        <a class="menu-item" href="#">Кабели RCA («тюльпаны») для ТВ-приставок и декодеров</a>
+                                        <a class="menu-item" href="#">Кабели для компьютера 220 В</a>
+                                        <a class="menu-item" href="#">Сетевые кабели питания для ноутбуков и техники</a>
+                                        <a class="menu-item" href="#">Сетевые кабели питания для радиоприёмников (двухконтактный разъём)</a>
+                                        <a class="menu-item" href="#">Кабели для планшетов ASUS</a>
+                                        <a class="menu-item" href="#">Кабели VGA</a>
+                                    </div>
+                                </div>
+
+
+                                <div class="submenu">
+                                    <button class="menu-item" type="button">Наушники и звук</button>
+                                    <div class="menu">
+                                        <a class="menu-item" href="#">Проводные наушники</a>
+                                        <a class="menu-item" href="#">Наушники Bluetooth</a>
+                                        <a class="menu-item" href="#">Компьютерные наушники</a>
+                                        <a class="menu-item" href="#">Колонки</a>
+                                        <a class="menu-item" href="#">Микрофоны и петлички</a>
+                                        <a class="menu-item" href="#">Гарнитуры</a>
+                                        <a class="menu-item" href="#">Радиоприёмники</a>
+                                        <a class="menu-item" href="#">USB-звуковые карты</a>
+                                        <a class="menu-item" href="#">Беруши</a>
+                                    </div>
+                                </div>
+
+
+                                <div class="submenu">
+                                    <button class="menu-item" type="button">Умные часы и браслеты</button>
+                                    <div class="menu">
+                                        <a class="menu-item" href="#">Смарт-часы</a>
+                                        <a class="menu-item" href="#">Ремешки и браслеты</a>
+                                        <a class="menu-item" href="#">Зарядки для часов и браслетов</a>
+                                        <a class="menu-item" href="#">Защитные стёкла для Apple Watch</a>
+                                    </div>
+                                </div>
+
+
+                                <div class="submenu">
+                                    <button class="menu-item" type="button">Держатели, селфи и фото</button>
+                                    <div class="menu">
+                                        <a class="menu-item" href="#">Держатели для телефона</a>
+                                        <a class="menu-item" href="#">Попсокеты, кольца и картхолдеры</a>
+                                        <a class="menu-item" href="#">Селфи-штативы</a>
+                                        <a class="menu-item" href="#">Штативы</a>
+                                        <a class="menu-item" href="#">Пульты для селфи</a>
+                                        <a class="menu-item" href="#">Кольцевые лампы</a>
+                                        <a class="menu-item" href="#">Стабилизаторы</a>
+                                        <a class="menu-item" href="#">Селфи-палки</a>
+                                        <a class="menu-item" href="#">Экшн-камеры</a>
+                                        <a class="menu-item" href="#">Объективы для телефона</a>
+                                        <a class="menu-item" href="#">Фотоаппараты</a>
+                                    </div>
+                                </div>
+
+
+                                <div class="submenu">
+                                    <button class="menu-item" type="button">Компьютеры, память и игры</button>
+                                    <div class="menu">
+                                        <a class="menu-item" href="#">Мышки и клавиатуры</a>
+                                        <a class="menu-item" href="#">USB-флешки</a>
+                                        <a class="menu-item" href="#">Карты памяти</a>
+                                        <a class="menu-item" href="#">Картридеры</a>
+                                        <a class="menu-item" href="#">Геймпады, триггеры и аксессуары для игр</a>
+                                        <a class="menu-item" href="#">Стилусы</a>
+                                        <a class="menu-item" href="#">Наклейки на клавиатуру</a>
+                                        <a class="menu-item" href="#">Подставки для ноутбука</a>
+                                        <a class="menu-item" href="#">Wi-Fi адаптеры</a>
+                                        <a class="menu-item" href="#">Роутеры, модемы и репитеры</a>
+                                        <a class="menu-item" href="#">Коврики для мышки</a>
+                                        <a class="menu-item" href="#">Графические планшеты</a>
+                                        <a class="menu-item" href="#">Игровые консоли и приставки</a>
+                                        <a class="menu-item" href="#">Сетевые адаптеры LAN</a>
+                                        <a class="menu-item" href="#">Веб-камеры</a>
+                                        <a class="menu-item" href="#">Игровые наборы для ПК</a>
+                                        <a class="menu-item" href="#">Термопринтеры</a>
+                                    </div>
+                                </div>
+
+
+                                <div class="submenu">
+                                    <button class="menu-item" type="button">Для авто</button>
+                                    <div class="menu">
+                                        <a class="menu-item" href="#">Автомобильные зарядные устройства</a>
+                                        <a class="menu-item" href="#">Автомобильные зарядные устройства с вольтметром и амперметром</a>
+                                        <a class="menu-item" href="#">Беспроводные автомобильные зарядные устройства</a>
+                                        <a class="menu-item" href="#">Автомобильные держатели (холдеры) для смартфона</a>
+                                        <a class="menu-item" href="#">Разветвители прикуривателя 12 В</a>
+                                        <a class="menu-item" href="#">Видеорегистраторы</a>
+                                        <a class="menu-item" href="#">Крепления для видеорегистраторов и навигаторов</a>
+                                        <a class="menu-item" href="#">Навигаторы</a>
+                                        <a class="menu-item" href="#">Противоскользящие коврики, автокарманы и крючки</a>
+                                        <a class="menu-item" href="#">Автоаксессуары (пуско-зарядное устройство, компрессор)</a>
+                                        <a class="menu-item" href="#">Автомобильные пылесосы</a>
+                                        <a class="menu-item" href="#">FM-модуляторы для авто</a>
+                                    </div>
+                                </div>
+
+
+                                <div class="submenu">
+                                    <button class="menu-item" type="button">Для дома и прочее</button>
+                                    <div class="menu">
+                                        <a class="menu-item" href="#">LED-лампы и ленты</a>
+                                        <a class="menu-item" href="#">GPS-трекеры и AirTag</a>
+                                        <a class="menu-item" href="#">Термометры, таймеры и прочее</a>
+                                        <a class="menu-item" href="#">Ночники</a>
+                                        <a class="menu-item" href="#">Фонари</a>
+                                        <a class="menu-item" href="#">Вентиляторы</a>
+                                        <a class="menu-item" href="#">USB-лампы</a>
+                                        <a class="menu-item" href="#">Лазерные указки</a>
+                                        <a class="menu-item" href="#">Бритвы</a>
+                                        <a class="menu-item" href="#">Звонки</a>
+                                        <a class="menu-item" href="#">Зонты</a>
+                                        <a class="menu-item" href="#">Наборы отвёрток</a>
+                                        <a class="menu-item" href="#">ТВ-приставки и антенны</a>
+                                        <a class="menu-item" href="#">Фены</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="hstack gap-2" role="search">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search"/>
+                        <button class="btn-solid btn-icon theme-secondary" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </form>
+                </div>
+            </dialog>
+        </div>
+    </nav>
+
+</header>
+
+<!-- ========================= -->
+<!-- JAVASCRIPT -->
+<!-- ========================= -->
+
+<main>
+
+
+
+  <!--Главная-->
+
+ <!-- <img src="img/hero/2.png" class="img-fluid" alt="...">-->
+
+  <div id="carouselExample container" class="carousel carousel-overlay slide">
+    <div class="carousel-inner rounded-5">
+      <div class="carousel-item active">
+        <img src="img/hero/2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/hero/3.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/hero/4.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <div class="carousel-overlay-controls">
+      <div>
+        <button class="btn-icon btn-sm btn-subtle theme-secondary" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-icon-prev" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="btn-icon btn-sm btn-subtle theme-secondary" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-icon-next" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Популярные категории-->
+  <section class="my-4 mx-2">
+
+    <div>
+      <div class="new-products__label">
+        Популярные категории
+      </div>
+    </div>
+
+    <div class="category-strip">
+
+      <a href="catalog.html?json=data/cases/iphone/17-pro.json
+                                                &filters=data/cases/filters.json
+                                                &title=Чехлы%20для%20iPhone%2017-pro"
+         class="category-item">
+        <img src="img/productStrip/чехол.png" alt="Чехлы">
+        <div class="category-info">
+          <h6>Чехлы</h6>
+          <small>Защита и стиль</small>
+          <span>→</span>
+        </div>
+      </a>
+
+      <a href="catalog.html?json=data/charger/charger.json
+                                                &filters=data/charger/filters.json
+                                                &title=Сетевые%20зарядные%20устройства"
+         class="category-item">
+        <img src="img/productStrip/зарядное.png" alt="Зарядные устройства">
+        <div class="category-info">
+          <h6>Зарядные устройства</h6>
+          <small>Быстрая зарядка</small>
+          <span>→</span>
+        </div>
+      </a>
+
+      <a href="catalog.html?json=data/cables/cables.json
+                                    &filters=data/cables/filters.json
+                                    &title=Кабели"
+         class="category-item">
+        <img src="img/productStrip/кабель.png" alt="Кабели">
+        <div class="category-info">
+          <h6>Кабели</h6>
+          <small>Надёжные и долговечные</small>
+          <span>→</span>
+        </div>
+      </a>
+
+      <a href="catalog.html?json=data/audio/bluetooth-headphones.json
+                                                &filters=data/audio/filters.json
+                                                &title=Наушники%20"
+         class="category-item">
+        <img src="img/productStrip/наушники.png" alt="Наушники">
+        <div class="category-info">
+          <h6>Наушники</h6>
+          <small>Чистый звук и комфорт</small>
+          <span>→</span>
+        </div>
+      </a>
+
+      <a href="index2.html#popular-products"
+         class="category-item">
+        <img src="img/productStrip/коробка.png" alt="Подарки">
+        <div class="category-info">
+          <h6>Подарки</h6>
+          <small>Лучшие идеи</small>
+          <span>→</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!--Новинки-->
+  <section class="new-products" id="new-products">
+    <div class="container">
+
+      <div class="new-products__header">
+
+        <div>
+          <div class="new-products__label">
+            Новое поступление
+          </div>
+
+          <h2 class="new-products__title">
+            Новинки
+          </h2>
+        </div>
+
+        <div>
+          <p class="new-products__subtitle">
+            Свежие модели аксессуаров для смартфонов,
+            планшетов и других гаджетов.
+            Современный дизайн и качество в каждой детали.
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="row g-4" id="newProductsGrid"></div>
+
+    </div>
+  </section>
+
+  <!--Популярные товары-->
+  <section class="popular-products" id="popular-products">
+    <div class="container">
+
+      <div class="popular-products__header">
+
+        <div>
+          <div class="popular-products__label">
+            Выбирают чаще всего
+          </div>
+
+          <h2 class="popular-products__title">
+            Популярное
+          </h2>
+        </div>
+
+        <p class="popular-products__subtitle">
+          Самые востребованные аксессуары,
+          которые уже оценили наши покупатели.
+        </p>
+
+      </div>
+
+      <div class="row g-4" id="popularProductsGrid"></div>
+
+    </div>
+  </section>
+
+  <!--Контакты-->
+  <section class="contacts" id="contacts">
+    <div class="container">
+
+      <div class="contacts__header">
+
+        <div>
+          <div class="contacts__label">
+            Мы рядом с вами
+          </div>
+
+          <h2 class="contacts__title">
+            Контакты
+          </h2>
+        </div>
+
+        <p class="contacts__subtitle">
+          Выбирайте удобный магазин и приезжайте за
+          аксессуарами. Мы всегда рады помочь с выбором.
+        </p>
+
+      </div>
+
+
+      <div class="contacts__stores">
+
+        <!-- Магазин 1 -->
+        <article class="store-card">
+
+          <div class="store-card__number">
+            01
+          </div>
+
+          <div class="store-card__content">
+
+            <h3 class="store-card__title">
+              Т/К «Монарх»
+            </h3>
+
+            <div class="store-card__address">
+              <span class="store-card__icon">⌖</span>
+
+              <div>
+                            <span>
+                                г. Тирасполь,<br>
+                                ул. Ленина, 7/1
+                            </span>
+
+                <small>
+                  Бутик 6
+                </small>
+              </div>
+            </div>
+
+            <a href="tel:+37377719353"
+               class="store-card__phone">
+              +373 (777) 19-353
+            </a>
+
+            <div class="store-card__schedule">
+              <span>Пн – Сб</span>
+              <strong>09:30–19:00</strong>
+
+              <span>Вс</span>
+              <strong>11:00–17:00</strong>
+            </div>
+
+            <div class="store-card__actions">
+
+              <a href="https://yandex.md/maps/-/CXCYyVOA"
+                 class="store-card__button store-card__button--yandex"
+                 target="_blank"
+                 rel="noopener">
+                Яндекс Карты
+              </a>
+
+              <a href="https://maps.app.goo.gl/XSWrxKSuSeMGCwjC7"
+                 class="store-card__button"
+                 target="_blank"
+                 rel="noopener">
+                Google Maps
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- Магазин 2 -->
+        <article class="store-card">
+
+          <div class="store-card__number">
+            02
+          </div>
+
+          <div class="store-card__content">
+
+            <h3 class="store-card__title">
+              Рынок «Клинцовский»
+            </h3>
+
+            <div class="store-card__address">
+              <span class="store-card__icon">⌖</span>
+
+              <div>
+                            <span>
+                                г. Тирасполь,<br>
+                                ул. Ленина, 16
+                            </span>
+
+                <small>
+                  Бутик №15
+                </small>
+              </div>
+            </div>
+
+            <a href="tel:+37377782838"
+               class="store-card__phone">
+              +373 (777) 82-838
+            </a>
+
+            <div class="store-card__schedule">
+              <span>Пн – Сб</span>
+              <strong>09:00–20:00</strong>
+
+              <span>Вс</span>
+              <strong>11:00–17:00</strong>
+            </div>
+
+            <div class="store-card__actions">
+
+              <a href="https://yandex.md/maps/-/CXCYBYpM"
+                 class="store-card__button store-card__button--yandex"
+                 target="_blank"
+                 rel="noopener">
+                Яндекс Карты
+              </a>
+
+              <a href="https://maps.app.goo.gl/F2WzWXoFkS7zGrBp9"
+                 class="store-card__button"
+                 target="_blank"
+                 rel="noopener">
+                Google Maps
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- Магазин 3 -->
+        <article class="store-card">
+
+          <div class="store-card__number">
+            03
+          </div>
+
+          <div class="store-card__content">
+
+            <h3 class="store-card__title">
+              Т/Ц «Тимп»
+            </h3>
+
+            <div class="store-card__address">
+              <span class="store-card__icon">⌖</span>
+
+              <div>
+                            <span>
+                                г. Тирасполь,<br>
+                                ул. Покровская (25 Октября), 104
+                            </span>
+
+                <small>
+                  Т/Ц «Тимп»
+                </small>
+              </div>
+            </div>
+
+            <a href="tel:+37377910900"
+               class="store-card__phone">
+              +373 (779) 10-900
+            </a>
+
+            <div class="store-card__schedule">
+              <span>Пн – Сб</span>
+              <strong>09:00–20:00</strong>
+
+              <span>Вс</span>
+              <strong>11:00–17:00</strong>
+            </div>
+
+            <div class="store-card__actions">
+
+              <a href="https://yandex.md/maps/-/CXCY5Y5T"
+                 class="store-card__button store-card__button--yandex"
+                 target="_blank"
+                 rel="noopener">
+                Яндекс Карты
+              </a>
+
+              <a href="https://maps.app.goo.gl/wVKapgGu3tLAvNNG8"
+                 class="store-card__button"
+                 target="_blank"
+                 rel="noopener">
+                Google Maps
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!--footer-->
+  <footer class="site-footer">
+    <div class="container py-5">
+      <div class="row g-4">
+
+        <!-- О магазине -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <a href="index2.html" class="footer-logo">
+            MONARH <span>MOBILE</span>
+          </a>
+
+          <p class="footer-description mt-3">
+            Технологии и стиль.
+            Аксессуары для тех, кто в движении.
+          </p>
+
+
+        </div>
+
+        <!-- Покупателям -->
+        <div class="col-6 col-md-6 col-lg-3">
+          <h5 class="footer-title">Покупателям</h5>
+
+          <ul class="footer-links">
+            <li><a href="index2.html">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="favorites.html">Избранное</a></li>
+            <li><a href="index2.html#new-products">Новинки</a></li>
+            <li><a href="index2.html#popular-products">Популярное</a></li>
+            <li><a href="index2.html#contacts">Контакты</a></li>
+          </ul>
+        </div>
+
+        <!-- Наши магазины -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5 class="footer-title">Наши магазины</h5>
+
+          <div class="footer-address">
+            <strong>Т/К Monarh</strong>
+            <p>Ленина, 7/1, бутик 6</p>
+            <small>Пн–Сб: 09:30–19:00</small>
+            <small>Вс: 11:00–17:00</small>
+          </div>
+
+          <div class="footer-address">
+            <strong>Клинцовский рынок</strong>
+            <p>Ленина, 16, бутик 15</p>
+            <small>Пн–Сб: 09:00–20:00</small>
+            <small>Вс: 11:00–17:00</small>
+          </div>
+
+          <div class="footer-address">
+            <strong>Т/Ц Timp</strong>
+            <p>Покровская (25 Октября), 104</p>
+            <small>Пн–Сб: 09:00–20:00</small>
+            <small>Вс: 11:00–17:00</small>
+          </div>
+        </div>
+
+        <!-- Дополнительный магазин -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5 class="footer-title">Также нас найти</h5>
+
+          <div class="footer-socials mt-3">
+            <a href="https://t.me/your_channel" target="_blank">
+              <i class="bi bi-telegram"></i>
+              Telegram
+            </a>
+
+            <a href="https://www.instagram.com/monarhmobile" target="_blank">
+              <i class="bi bi-instagram"></i>
+              Instagram
+            </a>
+          </div>
+
+
+        </div>
+
+      </div>
+
+      <hr class="footer-divider">
+
+      <div class="footer-bottom">
+        <p>© 2026 Monarh Mobile. Все права защищены.</p>
+        <!--<a href="privacy.html">Политика конфиденциальности</a>-->
+      </div>
+    </div>
+  </footer>
+
+
+</main>
+
+<!-- Модальное окно товара -->
+<div class="modal fade" id="productModal" tabindex="-1">
+
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalProductTitle">
+          Товар
+        </h5>
+
+        <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Закрыть"
+        ></button>
+      </div>
+
+      <div class="modal-body">
+        <div class="row g-4">
+
+          <!-- Большая фотография -->
+          <div class="col-md-6">
+            <div class="ratio ratio-1x1 bg-light rounded">
+              <img
+                      id="modalProductImage"
+                      src=""
+                      class="object-fit-contain p-3"
+                      alt=""
+              >
+            </div>
+          </div>
+
+          <!-- Информация -->
+          <div class="col-md-6">
+
+            <h4 id="modalProductPrice" class="fw-bold mb-3"></h4>
+
+            <p id="modalProductDescription" class="text-muted"></p>
+
+            <h6 class="fw-bold mb-3">
+              Характеристики
+            </h6>
+
+            <div id="modalProductAttributes"></div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Просмотр фото на весь экран -->
+<div class="modal fade" id="imageModal" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content bg-dark">
+
+      <div class="modal-header border-0">
+        <button
+                type="button"
+                class="btn-close btn-close-white ms-auto"
+                data-bs-dismiss="modal"
+                aria-label="Закрыть"
+        ></button>
+      </div>
+
+      <div class="modal-body d-flex align-items-center justify-content-center p-2">
+        <img
+                id="fullscreenImage"
+                src=""
+                class="img-fluid"
+                alt="Фото товара"
+        >
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+
+<!-- содержимое каталога -->
+<!--<script src="js/main.js"></script>-->
+<!--
+<script type="module" src="js/newProducts.js"></script>
+-->
+<!--
+<script type="module" src="js/popularProducts.js"></script>
+-->
+<!--
+<script src="js/loadFooter.js"></script>
+-->
+<!--<script src="js/headerScroll.js"></script>-->
+<script src="js/header.js"></script>
+
+
+</body>
+</html>
+
+
+
